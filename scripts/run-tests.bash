@@ -17,13 +17,13 @@ cd "${0%/*}/.."
 echo "-> Running linting tests..."
 
 echo "---> Running overall js linting tests..."
-npm run lint
+npm run js-lint
 
 echo "---> Running overall html linting tests..."
-npm run htmllint
+npm run html-lint
 
 echo "---> Running overall css linting tests..."
-npm run csslint
+npm run css-lint
 
 cd "pmweb"
 
