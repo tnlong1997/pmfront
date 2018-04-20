@@ -12,4 +12,5 @@ before_script:
 
 script:
   - npm run lint
-  - cd pmweb && npm install tslint && ng lint
+  - cd pmweb && npm install
+  - ng lint
