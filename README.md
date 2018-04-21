@@ -11,31 +11,37 @@ Frontend for Primor
 	```
 
 * Local js lint test:
-   in pmfromt directory:
+   in pmfront directory:
 	```
 	npm run js-lint
 	```
 
 * If there is some js lints, auto fix by using:
-   in pmcode directory:
+   in pmfront directory:
 	```
 	npm run js-lint-fix
 	```
 
 * Local css lint test:
-   in pmfromt directory:
+   in pmfront directory:
 	```
 	npm run css-lint
 	```
 
+* If there is some js lints, auto fix by using:
+   in pmfront directory:
+	```
+	npm run css-lint-fix
+	```
+
 * Local html lint test:
-   in pmfromt directory:
+   in pmfront directory:
 	```
 	npm run html-lint
 	```
 
 * Install git pre-push hook:
-   in pmcode directory:
+   in pmfront directory:
 	```
 	./scripts/install-hooks.bash
 	```
