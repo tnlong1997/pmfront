@@ -42,6 +42,6 @@
     "no-missing-end-of-source-newline": true,
     "number-no-trailing-zeros": true,
     "max-empty-lines": 1,
-    "block-opening-brace-space-before": true,
+    "block-opening-brace-space-before": "always",
   }
 }
