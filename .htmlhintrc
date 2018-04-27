@@ -9,4 +9,6 @@
   "src-not-empty": true,
   "attr-no-duplication": true,
   "title-require": true,
+	"inline-script-disabled": false,
+  "inline-style-disabled": false,
 }
