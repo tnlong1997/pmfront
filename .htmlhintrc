@@ -11,4 +11,5 @@
   "title-require": true,
 	"inline-script-disabled": false,
   "inline-style-disabled": false,
+	"space-tab-mixed-disabled": "tab"
 }
