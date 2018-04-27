@@ -32,6 +32,9 @@
     "stylelint-config-recommended": "^2.1.0"
   },
   "dependencies": {
-    "csslint": "^1.0.5"
+    "csslint": "^1.0.5",
+    "normalize.css": "^8.0.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
   }
 }
