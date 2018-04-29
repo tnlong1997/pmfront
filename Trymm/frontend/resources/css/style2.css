@@ -54,11 +54,11 @@ html {
 }
 
 .span-1-of-3 {
-	margin-top: 6%;
+	margin-top: 4%;
 }
 
 .span-1-of-4 {
-	margin-top: 6%;
+	margin-top: 4%;
 }
 /* ------ HEADINGS ------ */
 
@@ -211,7 +211,7 @@ header {
 
 .greeting-explain-text {
 	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 0;
 }
 
 /* BUTTONS */
@@ -231,7 +231,7 @@ header {
 	display: inline-block;
 
 	width: 200px;
-	margin-bottom: 10px;
+	margin-top: 10%;
 	padding: 10px 30px;
 
 	transition: background-color 0.3s, border 0.3s, color 0.3s;
