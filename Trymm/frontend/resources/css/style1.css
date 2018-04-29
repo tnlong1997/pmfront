@@ -9,20 +9,20 @@ Green Shade: #00b894
 /* --------------------------------------- */
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-  color: #555;
-  background-color: white;
+	color: #555;
+	background-color: #fff;
 
-  font-family: 'Lato','Arial', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
+	font-family: 'Lato','Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
 
-  text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
 }
 
 /* --------------------------------------- */
@@ -30,43 +30,43 @@ html {
 /* --------------------------------------- */
 
 .row {
-  max-width: 1140px;
-  margin: auto;
+	max-width: 1140px;
+	margin: auto;
 }
 
 .row-full-width {
 	max-width: 1439px;
-	margin: auto;
 	height: 20px;
+	margin: auto;
 }
 
 /* ------ HEADINGS ------ */
 
 h2 {
-  text-align: center;
-  letter-spacing: 1px;
-  word-spacing: 4px;
+	text-align: center;
+	letter-spacing: 1px;
+	word-spacing: 4px;
 
-  color: #fff;
+	color: #ffffff;
 
-  font-size: 100%;
-  font-weight: 100;
-  line-height: 23px;
+	font-size: 100%;
+	font-weight: 100;
+	line-height: 23px;
 }
 
 h1 {
-  margin: 0px;
-  padding: 15px;
+	margin: 0px;
+	padding: 15px;
 
-  text-align: center;
-  letter-spacing: 1px;
-  word-spacing: 6px;
-  text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+	text-transform: uppercase;
 
-  color: #fff;
+	color: #ffffff;
 
-  font-size: 240%;
-  font-weight: 300;
+	font-size: 240%;
+	font-weight: 300;
 }
 
 /* --------------------------------------- */
@@ -74,169 +74,167 @@ h1 {
 /* --------------------------------------- */
 
 header {
-  height: 100vh;
+	height: 100vh;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/food.jpg);
-  background-position: center;
-  background-size: cover;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("img/food.jpg");
+	background-position: center;
+	background-size: cover;
 }
 
 /* ------ TOP PAGE ------ */
 
 .logo {
-  float: left;
+	float: left;
 
-  width: auto;
-  height: 50px;
-  margin-top: 8px;
-  padding-left: 20px;
+	width: auto;
+	height: 50px;
+	margin-top: 8px;
+	padding-left: 20px;
 }
 
 .main-nav {
-  list-style: none;
+	list-style: none;
 }
 
 .main-nav li {
-  display: inline-block;
+	display: inline-block;
 
-  margin: 20px;
+	margin: 20px;
 }
 
 .main-nav li a:link, .main-nav li a:visited {
-  padding: 8px 0px;
+	padding: 8px 0px;
+	transition: border-bottom 0.2s;
+	text-decoration: none;
 
-  transition: border-bottom 0.2s;
-  text-decoration: none;
+	color: #fff;
+	border-bottom: 2px solid transparent;
 
-  color: #fff;
-  border-bottom: 2px solid transparent;
-
-  font-size: 90%;
+	font-size: 90%;
 }
 
 .main-nav li a:hover, .main-nav li a:active {
-  border-bottom: 2px solid #3498db;
+	border-bottom: 2px solid #3498db;
 }
 
 .sisu {
-  float: right;
+	float: right;
 
-  margin-right: 20px;
+	margin-right: 20px;
 
-  font-weight: 300;
+	font-weight: 300;
 }
 
 /* ------ MIDDLE PAGE: Mission Statements && SISU Buttons ------ */
 
 .logo-text {
-  position: absolute;
-  top: 33.9%;
-  left: 50%;
+	position: absolute;
+	top: 33.9%;
+	left: 50%;
 
-  max-width: 1140px;
+	max-width: 1140px;
 
-  transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 /* ------ BUTTONS ------ */
 
 .btn-container {
-  position: absolute;
-  left: 50%;
+	position: absolute;
+	left: 50%;
 
-  transform: translate(-50%,0);
+	transform: translate(-50%,0);
 }
 
 .btn:link, .btn:visited {
-  width: 200px;
-  margin-bottom: 10px;
-  padding: 10px 30px;
+	width: 200px;
+	margin-bottom: 10px;
+	padding: 10px 30px;
 
-  transition: background-color 0.2s, border 0.2s, color 0.2s;
-  text-align: center;
-  text-decoration: none;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+	text-align: center;
+	text-decoration: none;
 
-  border-radius: 6px;
+	border-radius: 6px;
 
-  font-weight: 500;
+	font-weight: 500;
 }
 
 .btn-signin:link, .btn-signin:visited {
-  display: inline-block;
+	display: inline-block;
 
-  margin-top: 50px;
+	margin-top: 50px;
 
-  text-decoration: none;
+	text-decoration: none;
 
-  color: #3498db;
-  border: 1.1px solid #3498db;
-  background: #fff;
+	color: #3498db;
+	border: 1.1px solid #3498db;
+	background: #fff;
 }
 
 .btn-signup:link, .btn-signup:visited {
-  display: inline-block;
+	display: inline-block;
 
-  margin-top: 20px;
+	margin-top: 20px;
 
-  text-decoration: none;
+	text-decoration: none;
 
-  color: #fff;
-  background: #3498db;
+	color: #fff;
+	background: #3498db;
 }
 
 .btn:hover, .btn:active {
-  background-color: #217dbb;
+	background-color: #217dbb;
 }
 
 .btn-signin:hover, .btn-signin:active {
-  color: #fff;
-  border: 1.1px solid #217dbb;
+	color: #fff;
+	border: 1.1px solid #217dbb;
 }
 
 .btn-signup:hover, .btn-signup:active {
-  display: inline-block;
+	display: inline-block;
 
-  margin-top: 20px;
+	margin-top: 20px;
 
-  text-decoration: none;
+	text-decoration: none;
 
-  color: #fff;
-  background: #217dbb;
+	color: #fff;
+	background: #217dbb;
 }
 
 /* ------ 6 POINTS ------ */
 
 .six-points {
-  position: fixed;
+	position: fixed;
 
-  width: 5%;
-  height: 100%;
+	width: 5%;
+	height: 100%;
 }
 
-
 /* --------------------------------------- */
-/* TERMS PRIVACY SUPPORT*/
+/* TERMS PRIVACY SUPPORT */
 /* --------------------------------------- */
 
 .container {
-  position: fixed;
-  bottom: 90px;
-  left: 20px;
+	position: fixed;
+	bottom: 90px;
+	left: 20px;
 
-  width: auto;
-  height: 10px;
-  margin: 0;
-  padding: 0;
+	width: auto;
+	height: 10px;
+	margin: 0;
+	padding: 0;
 }
 
 .container p {
-  letter-spacing: 1px;
-  word-spacing: 6px;
+	letter-spacing: 1px;
+	word-spacing: 6px;
 
-  color: #fff;
+	color: #fff;
 
-  font-size: 100%;
-  font-weight: 300;
+	font-size: 100%;
+	font-weight: 300;
 }
 
 /* --------------------------------------- */
@@ -244,33 +242,33 @@ header {
 /* --------------------------------------- */
 
 .footer {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
 
-  width: 100%;
-  height: 50px;
+	width: 100%;
+	height: 50px;
 
-  text-align: center;
+	text-align: center;
 
-  color: white;
-  border-top: 3px solid #00a786;
-  background-color: #00b894;
+	color: #fff;
+	border-top: 3px solid #00a786;
+	background-color: #00b894;
 }
 
 .footer p {
-  position: absolute;
-  left: 50%;
+	position: absolute;
+	left: 50%;
 
-  padding: 12px;
+	padding: 12px;
 
-  transform: translate(-50%,0%);
-  text-align: center;
-  letter-spacing: 1px;
-  word-spacing: 6px;
+	transform: translate(-50%,0%);
+	text-align: center;
+	letter-spacing: 1px;
+	word-spacing: 6px;
 
-  color: #fff;
+	color: #fff;
 
-  font-size: 100%;
-  font-weight: 700;
+	font-size: 100%;
+	font-weight: 700;
 }
