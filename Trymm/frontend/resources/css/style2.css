@@ -41,7 +41,23 @@ html {
 	width: 100%;
 }
 
+.row-of-four {
+	margin: 0 2% 0 2%;
+	display: table;
+	padding: 5px;
+}
+
+.row-of-three {
+	margin: 0 2% 0 2%;
+	display: table;
+	padding: 5px;
+}
+
 .span-1-of-3 {
+	margin-top: 6%;
+}
+
+.span-1-of-4 {
 	margin-top: 6%;
 }
 /* ------ HEADINGS ------ */
@@ -187,11 +203,8 @@ header {
 }
 
 .icon {
-	margin-bottom: 20px;
-}
-
-.ion-link, .ion-ios-pricetags, .ion-paper-airplane {
 	margin: 0 42%;
+	margin-bottom: 20px;
 }
 
 /* GREETING TEXT */
@@ -209,7 +222,7 @@ header {
 
 	display: block;
 
-	margin-top: 65px;
+	margin-top: 50px;
 
 	transform: translate(-50%,0);
 }
