@@ -2,6 +2,33 @@
 Frontend for Primor
 ---------
 
+### Repo initial setup:
+
+* Require node and npm
+
+* Install angular cli:
+	+ For Mac:
+	```
+	brew install angular-cli
+	```
+
+* npm setup:
+	+ In pmfront dir:
+	```
+	npm install
+	```
+
+	+ In pmweb dir:
+	```
+	npm install
+	```
+
+* Install git pre-push hooks:
+	+ In pmfront dir:
+	```
+	./scripts/install-hooks.bash
+	```
+
 ### In repo command:
 
 * Local overall lint test:
@@ -38,10 +65,4 @@ Frontend for Primor
    in pmfront directory:
 	```
 	npm run html-lint
-	```
-
-* Install git pre-push hook:
-   in pmfront directory:
-	```
-	./scripts/install-hooks.bash
 	```
