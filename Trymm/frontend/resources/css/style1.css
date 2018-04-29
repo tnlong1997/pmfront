@@ -104,7 +104,8 @@ header {
 
 .main-nav li a:link, .main-nav li a:visited {
 	padding: 8px 0px;
-	transition: border-bottom 0.2s;
+
+	transition: border-bottom 0.5s;
 	text-decoration: none;
 
 	color: #fff;
@@ -219,7 +220,7 @@ header {
 .container {
 	position: fixed;
 	bottom: 90px;
-	left: 20px;
+	left: 10px;
 
 	width: auto;
 	height: 10px;
