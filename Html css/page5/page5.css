@@ -87,7 +87,7 @@ BODY
 	float: left;
 }
 
-/*--------- mid-bar-1 ---------*/
+/* --------- mid-bar-1 --------- */
 
 .RO-header-container {
 	width: 100%;
@@ -105,7 +105,7 @@ BODY
 	font-weight: 100;
 	letter-spacing: 2px;
 }
-/* ============ */
+/* --------- mid-bar-1 --------- */
 
 .RO-content-container {
 	width: 100%;
@@ -121,7 +121,7 @@ BODY
 	font-weight: 100;
 	letter-spacing: 2px;
 }
-/* ============ */
+/* --------- pannels --------- */
 
 .pannels {
 	width: 100%;
@@ -142,7 +142,7 @@ BODY
 	float: left;
 	background-color: #ffffff;
 }
-/* ============ */
+/* --------- button-container --------- */
 
 .btn-container {
 	height: 20vh;

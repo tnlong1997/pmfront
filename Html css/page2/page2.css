@@ -93,7 +93,7 @@ BODY
 	float: left;
 }
 
-/*--------- mid-bar-1 ---------*/
+/* --------- mid-bar-1 --------- */
 
 .mid-bar-1 {
 	width: 100%;
@@ -112,7 +112,7 @@ BODY
 	letter-spacing: 2px;
 }
 
-/*--------- mid-bar-2 ---------*/
+/* --------- mid-bar-2 --------- */
 
 .mid-bar-2 {
 	width: 100%;
@@ -131,7 +131,7 @@ BODY
 	font-weight: 100;
 }
 
-/*--------- mid-bar-3 ---------*/
+/* --------- mid-bar-3 --------- */
 
 .mid-bar-3 {
 	width: 100%;
@@ -149,7 +149,7 @@ BODY
 	letter-spacing: 2px;
 }
 
-/*--------- mid-bar-4 ---------*/
+/* --------- mid-bar-4 --------- */
 
 .mid-bar-4 {
 	width: 100%;
@@ -176,10 +176,10 @@ BODY
 	text-align: center;
 }
 
-.icon-div h4 {
-	font-size: 80%;
+/* .icon-div h4 {
+	font-size: 100%;
 	font-weight: 100;
-}
+} */
 
 .icon {
 	display: block;
@@ -187,7 +187,7 @@ BODY
 	margin-right: auto;
 	padding-top: 20px;
 	padding-bottom: 30px;
-	width: 200px;
+	width: 100%;
 }
 
 .dot-div {
@@ -199,10 +199,11 @@ BODY
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 100px;
+	padding-top: 100%;
+	width: 20%;
 }
 
-/*--------- mid-bar-5 ---------*/
+/* --------- mid-bar-5 --------- */
 
 .mid-bar-5 {
 	width: 100%;
@@ -223,6 +224,8 @@ BODY
 }
 
 .btn {
+	margin-left: 10px;
+	margin-right: 10px;
 	display: inline-block;
 	padding: 10px 40px;
 	border-radius: 10px;

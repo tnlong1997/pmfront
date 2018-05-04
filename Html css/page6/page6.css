@@ -96,7 +96,7 @@ BODY
 	float: left;
 }
 
-/*--------- mid-bar-1 ---------*/
+/* --------- mid-bar-1 --------- */
 
 .mid-bar-1 {
 	width: 100%;
@@ -118,7 +118,7 @@ BODY
 	height: auto;
 }
 
-/*--------- mid-bar-2 ---------*/
+/* --------- mid-bar-2 --------- */
 
 .mid-bar-2 {
 	height: 20vh;
@@ -136,7 +136,7 @@ BODY
 	font-size: 300%;
 }
 
-/*--------- BUTTON ---------*/
+/* --------- BUTTON --------- */
 
 .mid-bar-3 {
 	height: 20vh;
