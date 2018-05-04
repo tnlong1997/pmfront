@@ -137,8 +137,10 @@ h1 {
 /* --------------------------------------- */
 
 header {
+	position: fixed;
 	height: 60px;
 	padding-bottom: 70px;
+	width: 100%;
 
 	border-bottom: 2px solid rgba(113, 120, 111, 0.1);
 }
@@ -191,6 +193,11 @@ header {
 /* --------------------------------------- */
 /* SECTION FEATURES */
 /* --------------------------------------- */
+
+.section-features {
+	position: absolute;
+	padding-top: 60px;
+}
 
 /* ICONS */
 
