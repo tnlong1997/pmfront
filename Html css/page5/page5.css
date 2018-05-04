@@ -67,7 +67,7 @@ body
 	background-color: #808285;
 }
 
-.left-bar	{
+.left-bar {
 	float: left;
 	width: 5%;
 	height: calc(100vh - 50px);
