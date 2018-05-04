@@ -9,9 +9,13 @@ body {
 }
 
 html {
-	background-color: #ffffff;
-	font-weight: 300;
+	color: #555;
+	background-color: #fff;
+
+	font-family: 'Lato','Arial', sans-serif;
 	font-size: 20px;
+	font-weight: 300;
+
 	text-rendering: optimizeLegibility;
 }
 /* ===========
@@ -91,19 +95,17 @@ mid bar 1
 ========== */
 
 .mid-bar-1 {
-	height: calc(15vh - 50px);
 	width: 100%;
 	padding-left: 15%;
 	padding-right: 15%;
 }
 
-#w-i-p{
-	height: calc(15vh - 50px);
+#primor-header{
 	width: 100%;
 	text-align: center;
 }
 
-#w-i-p h1{
+#primor-header h1{
 	font-size: 350%;
 	font-weight: 100;
 	letter-spacing: 2px;
@@ -113,21 +115,18 @@ mid bar 2
 ========== */
 
 .mid-bar-2{
-	height: 15vh;
 	width: 100%;
 	float: left;
-	padding-top: 20px;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
-#e-p{
-	height: 15vh;
+#primor-content{
 	width: 100%;
 	text-align: center;
 }
 
-#e-p h1{
+#primor-content h1{
 	font-size: 120%;
 	font-weight: 100;
 }
@@ -136,18 +135,16 @@ mid bar 3
 ========== */
 
 .mid-bar-3{
-	height: 15vh;
 	width: 100%;
 	float: left;
 }
 
-#h-i-w{
-	height: 15vh;
+#how-it-work{
 	width: 100%;
 	text-align: center;
 }
 
-#h-i-w h1{
+#how-it-workh{
 	font-size: 300%;
 	font-weight: 100;
 	letter-spacing: 2px;
@@ -156,8 +153,7 @@ mid bar 3
 mid bar 4
 ========== */
 
-.midbar4{
-	height: 30vh;
+.mid-bar-4{
 	width: 100%;
 	float: left;
 	padding-left: 5%;
@@ -176,10 +172,15 @@ mid bar 4
 	height: 100%;
 }
 
-.icondiv{
+.icon-div{
 	width: 17.5%;
-	height: 100%;
 	float: left;
+	text-align: center;
+}
+
+.icon-div h1{
+	font-size: 80%;
+	font-weight: 100;
 }
 
 .icon{
@@ -191,9 +192,8 @@ mid bar 4
 	width: 200px;
 }
 
-.dotdiv{
+.dot-div{
 	width: 10%;
-	height: 100%;
 	float: left;
 }
 
@@ -208,27 +208,18 @@ mid bar 5
 ========== */
 
 .mid-bar-5{
-	height: 15vh;
 	width: 100%;
 	float: left;
 	padding-left: 25%;
 	padding-right: 25%;
-
 }
 
-.button{
-	height: 10vh;
+.button-div{
 	width: 100%;
 	padding-top: 30px;
 }
 
-.b1{
-	width: 50%;
-	float: left;
-	text-align: center;
-}
-
-.b2{
+.btn-buyer-shipper{
 	width: 50%;
 	float: left;
 	text-align: center;
