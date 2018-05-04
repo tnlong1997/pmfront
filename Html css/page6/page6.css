@@ -18,8 +18,9 @@ html {
 
 	text-rendering: optimizeLegibility;
 }
+
 /* ===========
-nav bar
+NAV BAR
 ============== */
 
 header {
@@ -58,8 +59,9 @@ header {
 	text-decoration: none;
 	font-size: 100%;
 }
+
 /* ==========
-body
+BODY
 ========== */
 
 .main {
@@ -93,7 +95,8 @@ body
 	width: 90%;
 	float: left;
 }
-/* mid-bar-1 */
+
+/*--------- mid-bar-1 ---------*/
 
 .mid-bar-1 {
 	width: 100%;
@@ -114,7 +117,8 @@ body
 	width: 50%;
 	height: auto;
 }
-/* mid-bar-2 */
+
+/*--------- mid-bar-2 ---------*/
 
 .mid-bar-2 {
 	height: 20vh;
@@ -131,7 +135,8 @@ body
 .primor-header h1 {
 	font-size: 300%;
 }
-/* button */
+
+/*--------- BUTTON ---------*/
 
 .mid-bar-3 {
 	height: 20vh;
@@ -139,12 +144,12 @@ body
 	padding-right: 30%;
 }
 
-.btt-center-div {
+.btn-container {
 	height: 20vh;
 	padding-top: 20;
 }
 
-.btt-buyer-shipper {
+.btn-buyer-shipper {
 	width: 50%;
 	float: left;
 	text-align: center;

@@ -18,8 +18,9 @@ html {
 
 	text-rendering: optimizeLegibility;
 }
+
 /* ===========
-nav bar
+NAV BAR
 ============== */
 
 header {
@@ -57,8 +58,9 @@ header {
 	text-decoration: none;
 	font-size: 100%;
 }
+
 /* ==========
-body
+BODY
 ========== */
 
 .main {
@@ -90,9 +92,8 @@ body
 	width: 90%;
 	float: left;
 }
-/* ==========
-mid bar 1
-========== */
+
+/*--------- mid-bar-1 ---------*/
 
 .mid-bar-1 {
 	width: 100%;
@@ -110,9 +111,8 @@ mid bar 1
 	font-weight: 100;
 	letter-spacing: 2px;
 }
-/* ==========
-mid bar 2
-========== */
+
+/*--------- mid-bar-2 ---------*/
 
 .mid-bar-2 {
 	width: 100%;
@@ -130,9 +130,8 @@ mid bar 2
 	font-size: 120%;
 	font-weight: 100;
 }
-/* ==========
-mid bar 3
-========== */
+
+/*--------- mid-bar-3 ---------*/
 
 .mid-bar-3 {
 	width: 100%;
@@ -149,9 +148,8 @@ mid bar 3
 	font-weight: 100;
 	letter-spacing: 2px;
 }
-/* ==========
-mid bar 4
-========== */
+
+/*--------- mid-bar-4 ---------*/
 
 .mid-bar-4 {
 	width: 100%;
@@ -203,9 +201,8 @@ mid bar 4
 	margin-right: auto;
 	padding-top: 100px;
 }
-/* ==========
-mid bar 5
-========== */
+
+/*--------- mid-bar-5 ---------*/
 
 .mid-bar-5 {
 	width: 100%;
@@ -214,7 +211,7 @@ mid bar 5
 	padding-right: 25%;
 }
 
-.button-div {
+.btn-container {
 	width: 100%;
 	padding-top: 30px;
 }
