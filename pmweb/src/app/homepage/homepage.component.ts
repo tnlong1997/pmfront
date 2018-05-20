@@ -8,7 +8,7 @@ import { MnFullpageOptions } from 'ngx-fullpage';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-	public isVisible : boolean;
+	// public isVisible : boolean;
 
 	@Input() public options: MnFullpageOptions = new MnFullpageOptions({
         controlArrows: true,

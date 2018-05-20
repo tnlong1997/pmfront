@@ -14,6 +14,9 @@ import { Page6Component } from './homepage/page6/page6.component';
 import { FooterComponent } from './homepage/footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { PolicyComponent } from './homepage/policy/policy.component';
+import { Page2Col14Component } from './homepage/page2/page2-col-1-4/page2-col-1-4.component';
+import { Page3Col13Component } from './homepage/page3/page3-col-1-3/page3-col-1-3.component';
+import { Page4Col14Component } from './homepage/page4/page4-col-1-4/page4-col-1-4.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { PolicyComponent } from './homepage/policy/policy.component';
     Page6Component,
     FooterComponent,
     HeaderComponent,
-    PolicyComponent
+    PolicyComponent,
+    Page2Col14Component,
+    Page3Col13Component,
+    Page4Col14Component
   ],
   imports: [
     BrowserModule,
