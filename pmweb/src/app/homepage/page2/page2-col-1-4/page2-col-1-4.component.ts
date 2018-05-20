@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./page2-col-1-4.component.css']
 })
 export class Page2Col14Component implements OnInit {
-	@Input() urlPic: string;
+	@Input() urlpic: string;
   @Input() title: string;
 
   constructor() { }
