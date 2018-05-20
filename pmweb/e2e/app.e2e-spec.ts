@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('pmweb App', () => {
+describe('full-page App', () => {
   let page: AppPage;
 
   beforeEach(() => {

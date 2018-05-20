@@ -1,0 +1,45 @@
+.container {
+	position: fixed;
+	bottom: 55px;
+	left: 3px;
+
+	width: auto;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.container p {
+	letter-spacing: 1px;
+	word-spacing: 6px;
+
+	color: #fff;
+
+	font-size: 100%;
+	font-weight: 300;
+}
+
+.main-nav {
+	list-style: none;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin: 0 20px 0 20px;
+}
+
+.main-nav li a:link, .main-nav li a:visited {
+	padding: 8px 0px;
+
+	transition: border-bottom 0.5s;
+	text-decoration: none;
+
+	color: #fff;
+	border-bottom: 2px solid transparent;
+
+	font-size: 90%;
+}
+
+.main-nav li a:hover, .main-nav li a:active {
+	border-bottom: 2px solid #3498db;
+}
