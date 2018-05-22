@@ -184,7 +184,6 @@ html {
 	text-decoration: none;
 }
 
-/* stylelint-disable */
 input[type = "text"] {
 	display: inline-block;
 
@@ -199,7 +198,6 @@ input[type = "text"] {
 	font-size: 90%;
 	font-weight: 300;
 }
-/* stylelint-enable */
 
 .default-container {
 	height: 27px;
