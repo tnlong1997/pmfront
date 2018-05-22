@@ -1,10 +1,10 @@
 .menu-wrapper {
-  position: fixed;
-  width: 100%;
-  z-index: 70;
-  text-align: center;
-  height: 40px;
-  margin: auto;
+	position: fixed;
+	width: 100%;
+	z-index: 70;
+	text-align: center;
+	height: 40px;
+	margin: auto;
 }
 
 .menu {
@@ -17,35 +17,22 @@
 
 .menu li {
 	display: relative;
-  margin: 10px;
-  color: $menu-color;
-  background: #fff;
-  background: rgba(0, 0, 0, .5);
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+	margin: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
 }
 
 .menu li.active {
-  background: #666;
-  background: #e67e22;
-  color: #fff;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: #000;
+	background: #e67e22;
+	color: #fff;
 }
 
 .menu li:hover {
-  background: rgba(230, 126, 34, 0.55);
+	background: rgba(230, 126, 34, 0.55);
 }
 
 .menu li a,
 .menu li.active a {
-  padding: 6px 6px;
-  display: block;
-}
-
-.menu li.active a {
-  color: #fff;
+	padding: 6px 6px;
+	display: block;
 }
