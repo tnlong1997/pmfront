@@ -3,8 +3,9 @@
 
 .section {
 	clear: both;
-	padding: 0px;
+
 	margin: 0px;
+	padding: 0px;
 }
 
 /*  GROUPING  ============================================================================= */
@@ -15,8 +16,9 @@
 
 .row:before,
 .row:after {
-    content:"";
     display:table;
+
+    content:"";
 }
 .row:after {
     clear:both;
@@ -27,6 +29,7 @@
 .col {
 	display: block;
 	float:left;
+
 	margin: 1% 0 1% 1.6%;
 }
 

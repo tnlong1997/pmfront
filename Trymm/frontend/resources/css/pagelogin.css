@@ -24,7 +24,7 @@ html {
 /* --------------------------------------- */
 
 .body-wrapper {
-	height: 100vh;
+	height: 110vh;
 
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("img/homepagebackground2.png");
 	background-position: center;
@@ -75,7 +75,7 @@ html {
 .btn {
 	width: 200px;
 	margin: 10px;
-	padding: 12px 30px;
+	padding: 14px 30px;
 
 	transition: background-color 0.2s, border 0.2s, color 0.2s;
 	text-align: center;
@@ -115,13 +115,13 @@ html {
 	margin-right: auto;
 	margin-left: auto;
 
-	font-weight: 700;
-
 	text-decoration: none;
 
 	color: rgba(32, 30, 30, 0.8);
 	border: 2px solid rgb(118, 118, 118);
 	background: #fff;
+
+	font-weight: 700;
 }
 
 .logo {
@@ -178,7 +178,7 @@ html {
 .input-class {
 	width: 100%;
 	height: 47px;
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-right: auto;
 	margin-bottom: 15px;
 	margin-left: auto;
@@ -206,12 +206,15 @@ input[type = "text"] {
 }
 
 .or-content {
-	position: relative;
-
-	text-align: center;
+	margin-top: 17px;
+	margin-bottom: 4px;
 }
 
 .or-text {
+	position: relative;
+
+	text-align: center;
+
 	color: rgba(10, 10, 9, 0.55);
 
 	font-size: 85%;
@@ -220,7 +223,7 @@ input[type = "text"] {
 
 .or-text::before {
 	position: absolute ;
-	top: 50% ;
+	top: 50%;
 	right: 55%;
 
 	box-sizing: border-box;
@@ -233,7 +236,7 @@ input[type = "text"] {
 
 .or-text::after {
 	position: absolute ;
-	top: 50% ;
+	top: 50%;
 	left: 55%;
 
 	box-sizing: border-box;
@@ -245,11 +248,19 @@ input[type = "text"] {
 }
 
 .rem-me-text {
-	margin-top: 7px;
-	padding-top: 7px;
-	padding-left: 20px;
+	padding-left: 4px;
+
+	letter-spacing: 0.2px;
+
+	color: #736d6d;
 
 	font-size: 80%;
+	font-weight: 500;
+}
+
+.rem-me-container {
+	margin-top: 4px;
+	margin-bottom: 8px;
 }
 
 .password-text {
@@ -262,7 +273,7 @@ input[type = "text"] {
 
 	color: #079992;
 
-	font-size: 80%;
+	font-size: 70%;
 	font-weight: 500;
 }
 
@@ -275,14 +286,14 @@ input[type = "text"] {
 	text-decoration: none;
 }
 
-.show-password {
+.link-text {
 	display: inline-block;
 
 	padding-top: 3px;
 
 	text-decoration: none;
 
-	color: #058882;
+	color: #0c938c;
 
 	font-size: 80%;
 	font-weight: 500;

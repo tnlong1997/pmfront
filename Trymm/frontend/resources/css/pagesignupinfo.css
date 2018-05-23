@@ -1,0 +1,117 @@
+.body-content {
+	position: absolute;
+	left: 50%;
+
+	display: block;
+
+	width: 550px;
+	height: 680px;
+	margin-top: 70px;
+
+	transform: translate(-50%,0);
+
+	background-color: #fff;
+}
+
+.header-text {
+	padding-top: 3px;
+
+	text-align: center;
+	text-decoration: none;
+
+	font-size: 75%;
+	font-weight: 500;
+}
+
+.resize {
+	font-size: 100%;
+}
+
+.remove-padding {
+	margin-bottom: 13px;
+	padding: 0px;
+}
+
+.description-bday {
+	margin-top: 10px;
+
+	letter-spacing: 0.2px;
+
+	font-size: 80%;
+}
+
+.description-signup {
+	margin-top: 10px;
+
+	letter-spacing: 0.2px;
+
+	font-size: 75%;
+}
+
+.user_birthday {
+	display: block;
+
+	width: 100%;
+	height: 44px;
+	padding-top: 11px;
+	padding-right: 40px;
+	padding-bottom: 11px;
+	padding-left: 11px;
+
+	color: rgb(72, 72, 72);
+	border-radius: 0px;
+	background-color: transparent;
+
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.day-box {
+	box-sizing: border-box;
+	width: 27.26%;
+}
+
+.month-box {
+	box-sizing: border-box;
+	width: 37.26%;
+}
+
+.year-box {
+	box-sizing: border-box;
+}
+
+.margin-adjust {
+	height: 58px;
+	margin-top: 10px;
+}
+
+.description-bday h3 {
+	letter-spacing: 0.2px;
+
+	font-size: 95%;
+	font-weight: 400;
+}
+
+.dont-have-acc::before {
+	display: block;
+
+	width: 100%;
+	height: 1px;
+	margin: 15px auto;
+	margin-top: 10px;
+
+	content: "";
+
+	background-color: rgba(10, 10, 9, 0.2);
+}
+
+.email-subscription-text {
+	letter-spacing: 0.2px;
+
+	font-size: 15px;
+}
+
+.margin-adjust-email {
+	margin-bottom: 15px;
+}
