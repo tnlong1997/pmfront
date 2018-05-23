@@ -30,12 +30,18 @@
 	margin-bottom: 25px;
 }
 
+.rel-text {
+	position: relative;
+}
+
 .icon-small {
-	display: inline-block;
 	position: absolute;
+	top: 20%;
 	left: 145px;
-	top: 214px;
+
+	display: inline-block;
+
+	padding-right: 5px;
 
 	font-size: 167%;
-	padding-right: 5px;
 }
