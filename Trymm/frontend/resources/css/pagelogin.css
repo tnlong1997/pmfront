@@ -1,175 +1,4 @@
 /* --------------------------------------- */
-/* BASIC SETUP */
-/* --------------------------------------- */
-
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-html {
-	color: #555;
-	background-color: #fff;
-
-	font-family: 'Lato','Arial', sans-serif;
-	font-size: 20px;
-	font-weight: 300;
-
-	text-rendering: optimizeLegibility;
-}
-
-/* --------------------------------------- */
-/* BODY CONTENTS */
-/* --------------------------------------- */
-
-.body-wrapper {
-	height: 110vh;
-
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("img/homepagebackground2.png");
-	background-position: center;
-	background-size: cover;
-}
-
-.body-content {
-	position: absolute;
-	left: 50%;
-
-	display: block;
-
-	width: 550px;
-	height: 530px;
-	margin-top: 70px;
-
-	transform: translate(-50%,0);
-
-	background-color: #fff;
-}
-
-.auto-margin-body {
-	position: absolute;
-	left: 50%;
-
-	width: 87%;
-	height: 100%;
-	padding-top: 20px;
-
-	transform: translate(-50%,0);
-}
-
-/* --------------------------------------- */
-/* CANCEL IMG */
-/* --------------------------------------- */
-
-.cancel-img {
-	width: 17px;
-	height: 17px;
-
-	border-radius: 2px;
-}
-
-/* --------------------------------------- */
-/* BUTTONS */
-/* --------------------------------------- */
-
-.btn {
-	width: 200px;
-	margin: 10px;
-	padding: 14px 30px;
-
-	transition: background-color 0.2s, border 0.2s, color 0.2s;
-	text-align: center;
-	text-decoration: none;
-
-	border-radius: 4px;
-
-	font-size: 80%;
-	font-weight: 500;
-}
-
-/* BUTTON FACEBOOK */
-
-.btn-facebook:link, .btn-facebook:visited {
-	display: block;
-
-	width: 100%;
-	margin-top: 18px;
-	margin-right: auto;
-	margin-left: auto;
-
-	text-decoration: none;
-
-	color: #fff;
-	background: rgb(69, 104, 178);
-}
-
-/* BUTTON GOOGLE */
-
-.btn-google:link, .btn-google:visited {
-	position: relative;
-
-	display: block;
-
-	width: 100%;
-	margin-top: 10px;
-	margin-right: auto;
-	margin-left: auto;
-
-	text-decoration: none;
-
-	color: rgba(32, 30, 30, 0.8);
-	border: 2px solid rgb(118, 118, 118);
-	background: #fff;
-
-	font-weight: 700;
-}
-
-.logo {
-	position: absolute;
-
-	display: inline-block;
-
-	width: 20px;
-	height: 20px;
-
-	transform: translate(-120%,0);
-}
-
-.fb {
-	width: 25px;
-	height: 25px;
-
-	transform: translate(-120%,-15%);
-}
-
-.btn-text {
-	display: inline-block;
-}
-
-/* BUTTON LOG IN */
-
-.btn-log-in:link, .btn-log-in:visited {
-	display: block;
-
-	width: 100%;
-	margin-top: 7px;
-	margin-right: auto;
-	margin-left: auto;
-
-	text-align: center;
-	text-decoration: none;
-
-	color: #fff;
-	border: 1.1px solid #d8890b;
-	background: #f39c12;
-}
-
-.btn-log-in:hover, .btn-log-in:active {
-	color: #fff;
-	border: 1.1px solid #b87409;
-}
-
-/* --------------------------------------- */
 /* FORMS */
 /* --------------------------------------- */
 
@@ -201,50 +30,15 @@ input[type = "text"] {
 	font-weight: 300;
 }
 
-.default-container {
-	height: 27px;
-}
+/* REMEMBER ME CHECKBOX */
 
-.or-content {
-	margin-top: 17px;
-	margin-bottom: 4px;
-}
+.check-box {
+	display: inline-block;
+	float: left;
 
-.or-text {
-	position: relative;
+	margin-top: 10px;
 
-	text-align: center;
-
-	color: rgba(10, 10, 9, 0.55);
-
-	font-size: 85%;
-	font-weight: 500;
-}
-
-.or-text::before {
-	position: absolute ;
-	top: 50%;
-	right: 55%;
-
-	box-sizing: border-box;
-	width: 45% ;
-
-	content: "" ;
-
-	border-bottom: 1px solid rgba(10, 10, 9, 0.2);
-}
-
-.or-text::after {
-	position: absolute ;
-	top: 50%;
-	left: 55%;
-
-	box-sizing: border-box;
-	width: 45% ;
-
-	content: "" ;
-
-	border-bottom: 1px solid rgba(10, 10, 9, 0.2);
+	text-decoration: none;
 }
 
 .rem-me-text {
@@ -263,41 +57,11 @@ input[type = "text"] {
 	margin-bottom: 8px;
 }
 
-.password-text {
-	display: inline-block;
-	float: right;
+/* --------------------------------------- */
+/* TEXT AND STYLES */
+/* --------------------------------------- */
 
-	padding-top: 3px;
-
-	text-decoration: none;
-
-	color: #079992;
-
-	font-size: 70%;
-	font-weight: 500;
-}
-
-.check-box {
-	display: inline-block;
-	float: left;
-
-	margin-top: 10px;
-
-	text-decoration: none;
-}
-
-.link-text {
-	display: inline-block;
-
-	padding-top: 3px;
-
-	text-decoration: none;
-
-	color: #0c938c;
-
-	font-size: 80%;
-	font-weight: 500;
-}
+/* LINK TEXT AND PASSWORD TEXT STYLE  */
 
 .password::after {
 	display: block;
@@ -317,22 +81,4 @@ input[type = "text"] {
 	margin: auto;
 
 	text-align: center;
-}
-
-.dont-have-acc {
-	width: 100%;
-	margin: 15px auto;
-
-	text-align: center;
-
-	color: rgba(49, 42, 50, 0.72);
-
-	font-size: 80%;
-	font-weight: 500;
-}
-
-.sign-up {
-	padding-left: 4px;
-
-	font-size: 100%;
 }

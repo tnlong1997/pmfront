@@ -1,3 +1,7 @@
+/* --------------------------------------- */
+/* BODY CONTENTS */
+/* --------------------------------------- */
+
 .body-content {
 	position: absolute;
 	top: 10%;
@@ -13,6 +17,12 @@
 	background-color: #fff;
 }
 
+.rel-text {
+	position: relative;
+}
+
+/* HORIZONTAL LINE */
+
 .dont-have-acc::before {
 	display: block;
 
@@ -26,13 +36,13 @@
 	background-color: rgba(10, 10, 9, 0.2);
 }
 
+/* BUTTON */
+
 .btn-log-in {
 	margin-bottom: 25px;
 }
 
-.rel-text {
-	position: relative;
-}
+/* ICON */
 
 .icon-small {
 	position: absolute;
