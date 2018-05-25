@@ -20,13 +20,6 @@
 	height: 100vh;
 }
 
-.clearfix::after {
-	display: table;
-	clear: both;
-
-	content: "";
-}
-
 /* --------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* --------------------------------------- */
