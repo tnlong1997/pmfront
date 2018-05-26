@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1200px) {
+
+	.body-content {
+		width: 600px;
+	}
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+	.body-content {
+		width: 600px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	h2, h3 {
+		font-size: 120%;
+	}
+
+	p {
+		font-size: 95%;
+	}
+
+	.body-content {
+		width: 400px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	h2 {
+		font-size: 100%;
+	}
+
+	h3 {
+		font-size: 95%;
+	}
+
+	p {
+		font-size: 80%;
+	}
+
+	.body-content {
+		width: 80%;
+	}
+
+	.card-number {
+		width: 80%;
+	}
+
+	.full-name {
+		width: 80%;
+	}
+
+	.exp-date {
+		display: inline-block;
+		float: left;
+		width: 80%;
+	}
+
+	.CVV {
+		display: inline-block;
+		width: 80%;
+		margin-left: 10px;
+	}
+
+	.country {
+		display: block;
+
+		width: 80%;
+		height: 44px;
+		padding-top: 11px;
+		padding-right: 40px;
+		padding-bottom: 11px;
+		font-weight: 500;
+
+		color: #ccc;
+		border-radius: 0px;
+		background-color: transparent;
+	}
+
+	.btn-save:link, .btn-save:visited {
+		width: 80%;
+	}
+
+
+}
