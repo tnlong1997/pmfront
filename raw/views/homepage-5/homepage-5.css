@@ -8,9 +8,32 @@
 	src: url('../../assets/Fonts/Roboto-Black.ttf') format('truetype');
 }
 
+
+@media only screen and (max-width: 1920px){
+	.example-product-list {
+		left: 15vw;
+		width: 70vw;
+	}
+	.example-product-img-container {
+		width: 31vw;
+	}
+
+}
+
+@media only screen and (max-width: 1100px){
+	.example-product-list {
+		left: 20vw;
+		width: 60vw;
+	}
+
+	.example-product-img-container {
+		width: 56vw;
+	}
+}
+
 .background {
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -18,7 +41,7 @@
 
 #background-image {
 	max-width: 100%;
-	max-height: 100%;
+	/* max-height: 100%; */
 	height: auto;
 }
 
@@ -35,7 +58,7 @@
 /* Component -> Header sections: Page number & Page topic */
 
 .header {
-	height: 424px;
+	height: 40vh;
 }
 
 /* Page number styles */
@@ -49,7 +72,7 @@
 #page-number-5 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	font-size: 126pt;
+	font-size: 11vw;
 }
 
 /* Page topic styles */
@@ -64,7 +87,7 @@
 	font-weight: bold;
 	white-space: initial;
 	font-family: 'Roboto Black', sans-serif;
-	font-size: 60pt;
+	font-size: 6vw;
 	letter-spacing: 5pt;
 
 }
@@ -72,10 +95,8 @@
 /* Component -> Example List */
 
 .example-product-list {
-	height: 500px;
+	height: 60vh;
 	position: absolute;
-	left: 15vw;
-	width: 70vw;
 }
 
 .example-product {
@@ -86,7 +107,7 @@
 /* Example list -> Product-Image */
 
 .example-product-img-container {
-	width: 31vw;
+	/* width: 31vw; */
 	margin-bottom: 3vh;
 }
 
