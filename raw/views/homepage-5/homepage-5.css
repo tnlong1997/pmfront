@@ -42,8 +42,8 @@
 
 .page-number {
 	position: absolute;
-	top: 90px;
-	left: 90px;
+	top: 6vh;
+	left: 5vw;
 }
 
 #page-number-5 {
@@ -56,8 +56,8 @@
 
 .page-topic {
 	position: absolute;
-	top: 140px;
-	left: 1228px;
+	top: 10vh;
+	left: 65vw;
 }
 
 #trending-order-topic {
@@ -74,21 +74,20 @@
 .example-product-list {
 	height: 500px;
 	position: absolute;
-	left: 300px;
-	width: 1373px;
+	left: 15vw;
+	width: 70vw;
 }
 
 .example-product {
 	float: left;
-	margin: 40px;
+	margin: 2vw;
 }
 
 /* Example list -> Product-Image */
 
 .example-product-img-container {
-	width: 585px;
-	height: 585px;
-	margin-bottom: 20px;
+	width: 31vw;
+	margin-bottom: 3vh;
 }
 
 .example-product-img {
@@ -105,5 +104,5 @@
 }
 
 .example-product-name {
-	margin-bottom: 5px;
+	margin-bottom: 0.5vh;
 }
