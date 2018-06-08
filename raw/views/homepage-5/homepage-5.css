@@ -56,7 +56,7 @@
 #page-number-5 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	font-size: 11vw;
+	font-size: 15vmin;
 }
 
 /* Page assets */
@@ -97,7 +97,7 @@
 	font-weight: bold;
 	white-space: initial;
 	font-family: 'Roboto Black', sans-serif;
-	font-size: 6vw;
+	font-size: 8vmin;
 	letter-spacing: 5pt;
 
 }
