@@ -1,0 +1,161 @@
+/* --------------------------------------- */
+/* BASIC SETUPS */
+/* --------------------------------------- */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	color: #555;
+	background-color: #fff;
+
+	font-family: 'Roboto','Lato','Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+
+	text-rendering: optimizeLegibility;
+}
+
+.body-wrapper {
+	height: 120vh;
+}
+/* --------------------------------------- */
+/* HEADERS */
+/* --------------------------------------- */
+
+.add-padding-row {
+	border-bottom: 2px solid #ccc;
+}
+
+.box {
+	position: relative;
+
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.box a {
+	text-decoration: none;
+
+	color: #000;
+
+	font-size: 75%;
+	font-weight: normal;
+}
+
+/* ------ PRIMOR ------ */
+
+.box1 {
+	padding-left: 15px;
+}
+
+.box1 p {
+	letter-spacing: 0.6px;
+
+	font-size: 120%;
+	font-weight: bold;
+}
+
+/* ------ LOGO ------ */
+
+.box4 {
+	margin-top: 0;
+
+	text-align: center;
+
+}
+
+.box4 img {
+	height: 50px;
+}
+
+/* ------ LANGUAGE ------ */
+
+.box7 {
+	width: 2%;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+.box7 select {
+	overflow: hidden;
+
+	border: none;
+
+	font-weight: normal;
+
+	-webkit-appearance: none;
+}
+
+/* ------ LOG IN SIGN UP ------ */
+
+.box8 {
+	float: right;
+
+	width: 20%;
+	margin-top: 0px;
+	padding: 16px 0px;
+	padding-left: 17px;
+
+	color: #fff;
+	background-color: rgb(178,193,190);
+
+	font-weight: normal;
+}
+
+.box8 a {
+	color: #fff;
+}
+
+/* --------------------------------------- */
+/* 4 PAGES CONTENT */
+/* --------------------------------------- */
+
+.main1 {
+	width: 80%;
+}
+
+/* --------------------------------------- */
+/* MENU BAR */
+/* --------------------------------------- */
+
+.main2 {
+	float: right;
+
+	width: 20%;
+	margin: 0;
+
+	background-color: rgb(178,193,190);
+}
+
+.menu-list {
+	padding-top: 100px;
+	padding-bottom: 100vh;
+}
+
+.menu-list li {
+	list-style-type: none;
+}
+
+.menu-list a {
+	text-decoration: none;
+
+	color: #fff;
+}
+
+.menu-list a p {
+	padding-left: 16px;
+
+	letter-spacing: 0.6px;
+
+	font-size: 75%;
+	font-weight: normal;
+	line-height: 30px;
+}
+
+.sett {
+	position: relative;
+}
