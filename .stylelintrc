@@ -16,7 +16,7 @@
     "declaration-no-important": true,
     "declaration-colon-space-before": "never",
     "declaration-colon-space-after": "always",
-    "property-no-vendor-prefix": true,
+    # "property-no-vendor-prefix": true,
     "number-leading-zero": "always",
     "function-url-quotes": "always",
     "font-family-name-quotes": "always-unless-keyword",
