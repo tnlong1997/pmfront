@@ -154,6 +154,7 @@
 }
 
 /* Component -> Rating Content -> Rank 1 Section */
+
 .rank-1-container {
 	position: relative;
 	left: 4vw;
@@ -163,6 +164,7 @@
 }
 
 /* Rank 1 Name Section */
+
 .rank-1-name-container {
 	position: relative;
 	height: 7vw;
@@ -179,7 +181,7 @@
 	position: absolute;
 	top: 35%;
 	left: 0;
-	font-size: 1.5vw; 
+	font-size: 1.5vw;
 }
 
 .rank-1-design-indicator {
@@ -202,7 +204,7 @@
 	height: auto;
 }
 
-#rank-1-logo-img{
+#rank-1-logo-img {
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -244,12 +246,14 @@
 }
 
 /* Rank 1 Description Section */
+
 .rank-1-description-container {
 	position: relative;
 	width: 100%;
 	height: auto;
 	margin-top: 2vw;
 }
+
 .rank-1-des-indicator-container {
 	position: absolute;
 	top: 0;
@@ -288,7 +292,8 @@
 }
 
 /* Component -> Rating Content -> Other rank (Ranking List) */
-.ranking-list-container{
+
+.ranking-list-container {
 	position: relative;
 	left: 8vw;
 	top: 10vw;
@@ -318,7 +323,7 @@
 	width: 1vw;
 }
 
-#ranking-member-design-indicator-img {
+.ranking-member-design-indicator-img {
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -330,7 +335,7 @@
 	width: 2.7vw;
 }
 
-#ranking-member-logo-img {
+.ranking-member-logo-img {
 	max-width: 100%;
 	max-height: 100%;
 }
