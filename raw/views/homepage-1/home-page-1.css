@@ -77,7 +77,7 @@ h3 {
 }
 
 h2 {
-	margin-top: 50px;
+	margin-top: 38px;
 	margin-bottom: 30px;
 
 	letter-spacing: 1px;
@@ -120,6 +120,8 @@ h1 {
 /* TOP BODY CONTENT */
 /* --------------------------------------- */
 
+/* ------ PAGE NUMBER ------ */
+
 .page-number {
 	width: 12%;
 	padding: 0;
@@ -147,111 +149,108 @@ h1 {
 	background-color: rgb(245,200,176);
 }
 
+/* ------ WHAT IS PRIMOR ------ */
+
 .right-side-text h2 {
 	margin-bottom: 5px;
+	padding-left: 15px;
+
+	font-size: 350%;
 }
 
 .right-side-text p {
 	font-weight: normal;
 }
 
+/* ------ CIRCLE ORANGE ------ */
+
+.circle-orange-container {
+	margin-top: 57px;
+	margin-left: 100px;
+
+	text-align: center;
+}
+
+.circle-orange-container img {
+	width: 200px;
+}
+
 /* --------------------------------------- */
 /* BOTTOM BODY CONTENT */
 /* --------------------------------------- */
 
-/* ------ CONTAINER SIZING ------ */
+/* ------ BLUE CIRCLE ------ */
 
-.row-of-three {
-	display: table;
-
-	margin: 10px auto;
-	padding: 5px;
+.circle-blue-container {
+	text-align: right;
 }
 
-.box {
-	margin-top: 4%;
-
-	text-align: center;
+.circle-blue-container img {
+	width: 250px;
+	padding-right: 10px;
 }
 
-/* ------ IMAGE ICONS ------ */
+/* ------ GIUN ------ */
 
-.img {
-	width: 120px;
-	margin-bottom: 10px;
-}
+.giun-container img {
+	position: relative;
+	top: -50px;
 
-/* ------ TEXT STYLES ------ */
-
-.greeting-explain-text {
-	margin-top: 10px;
-	margin-bottom: 0;
-}
-
-.greeting-explain-text h3 {
-	margin-bottom: 20px;
-
-	font-size: 110%;
-	font-weight: bold;
-}
-
-.greeting-explain-text p {
-	text-align: center;
-
-	font-size: 80%;
-	font-weight: normal;
-}
-
-/* ------ BUTTONS ------ */
-
-.btn-container {
-	position: absolute;
-	left: 50%;
-
-	display: block;
-
-	margin-top: 50px;
-
-	transform: translate(-50%,0);
-}
-
-.btn-explore:link, .btn-explore:visited {
 	display: inline-block;
 
-	width: 200px;
-	margin-top: 10%;
-	padding: 10px 30px;
-
-	transition: background-color 0.3s, border 0.3s, color 0.3s;
-	text-align: center;
-	text-decoration: none;
-
-	color: #fff;
-	border-radius: 6px;
-	background-color: rgb(245,200,176);
-
-	font-weight: 300;
+	width: 350px;
 }
 
-.btn-explore:hover, .btn-explore:active {
-	background-color: #f1b392;
+/* ------ EXPLAIN TEXT ------ */
+
+.explain-text-container {
+	margin-top: 85px;
 }
 
-.btn-explore p {
-	letter-spacing: 1px;
+.explain-text-container p {
+	position: relative;
+	left: -120px;
 
-	font-size: 100%;
-	line-height: 130%;
+	display: inline-block;
+
+	font-weight: 200;
 }
 
-/* ------ SOME RESPONSIVE ADJUSTMENTS ------ */
+/* --------------------------------------- */
+/* SOME RESPONSIVE ADJUSTMENTS  */
+/* --------------------------------------- */
 
 @media only screen and (max-width: 1023px) {
 
-	.page-number, .right-side-text, .intro-buyer {
+	.page-number, .right-side-text, .circle-orange-container {
 		width: 100%;
 
 		text-align: center;
+	}
+
+	.circle-orange-container {
+		margin-left: 0;
+	}
+
+	.circle-blue-container, .giun-container {
+		display: none;
+	}
+
+	.explain-text-container {
+		width: 100%;
+
+		text-align: center;
+	}
+
+	.explain-text-container p {
+		position: relative;
+		left: 0px;
+
+		display: inline-block;
+
+		font-size: 150%;
+		font-weight: 200;
+
 	}
 
 	.right-side-text h1, .right-side-text {

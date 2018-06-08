@@ -19,22 +19,30 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
-.body-wrapper {
-	height: 120vh;
-}
 /* --------------------------------------- */
 /* HEADERS */
 /* --------------------------------------- */
 
 .add-padding-row {
+	position: fixed;
+
+	width: 100%;
+	margin: 0px;
+
 	border-bottom: 2px solid #ccc;
 }
 
 .box {
 	position: relative;
 
+	width: 100px;
+	height: 52px;
+	margin-top: 0;
+	margin-right: 50px;
 	margin-bottom: 0;
-	padding: 0;
+	padding: 16px 0;
+
+	text-align: center;
 }
 
 .box a {
@@ -42,17 +50,24 @@ html {
 
 	color: #000;
 
-	font-size: 75%;
+	font-size: 100%;
 	font-weight: normal;
 }
 
 /* ------ PRIMOR ------ */
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
 
 .box1 {
 	padding-left: 15px;
 }
 
 .box1 p {
+	display: block;
+
 	letter-spacing: 0.6px;
 
 	font-size: 120%;
@@ -63,19 +78,21 @@ html {
 
 .box4 {
 	margin-top: 0;
+	padding: 0;
+	padding-top: 8px;
 
 	text-align: center;
-
 }
 
 .box4 img {
-	height: 50px;
+	height: 40px;
 }
 
 /* ------ LANGUAGE ------ */
 
 .box7 {
 	width: 2%;
+	margin-right: 0px;
 
 	font-family: 'Roboto', sans-serif;
 }
@@ -95,10 +112,15 @@ html {
 .box8 {
 	float: right;
 
-	width: 20%;
+	width: 300px;
+	height: 56px;
 	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
 	padding: 16px 0px;
 	padding-left: 17px;
+
+	text-align: left;
 
 	color: #fff;
 	background-color: rgb(178,193,190);
@@ -111,21 +133,13 @@ html {
 }
 
 /* --------------------------------------- */
-/* 4 PAGES CONTENT */
-/* --------------------------------------- */
-
-.main1 {
-	width: 80%;
-}
-
-/* --------------------------------------- */
 /* MENU BAR */
 /* --------------------------------------- */
 
 .main2 {
 	float: right;
 
-	width: 20%;
+	width: 300px ;
 	margin: 0;
 
 	background-color: rgb(178,193,190);
@@ -140,7 +154,7 @@ html {
 	list-style-type: none;
 }
 
-.menu-list a {
+.menu-list a:link, .menu-list a:visited {
 	text-decoration: none;
 
 	color: #fff;
@@ -151,9 +165,32 @@ html {
 
 	letter-spacing: 0.6px;
 
-	font-size: 75%;
+	font-size: 90%;
 	font-weight: normal;
 	line-height: 30px;
+}
+
+.menu-list a:active, .menu-list a:hover, .menu-list a:link {
+	color: rgb(126, 126, 126);
+}
+
+/* ------ OPTIONAL ------ */
+
+.menu-list a p::before {
+	position: relative;
+	top: 17px;
+	left: -160px;
+
+	display: block;
+
+	width: 15px;
+	height: 3px;
+	margin: 0 auto;
+
+	content: "";
+
+	border-radius: 2px;
+	background-color: rgb(182, 182, 182, 0.5);
 }
 
 .sett {

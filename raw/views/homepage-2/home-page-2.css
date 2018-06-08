@@ -1,12 +1,3 @@
-/*
-Flat Blue: #3498db
-Green Pallette: #00b894
-Green Shade: #00b894
-Gray Shade: #b2bec3
-Orange Button: #e67e22
-Light Pink: rgb(245,200,176)
-*/
-
 /* --------------------------------------- */
 /* BASIC SETUP */
 /* --------------------------------------- */
@@ -35,7 +26,8 @@ html {
 .row {
 	max-width: 1140px;
 	margin: auto;
-	padding: 0 2%;
+	padding: 20px 5%;
+	padding-bottom: 0px;
 }
 
 .row-full-width {
@@ -77,7 +69,7 @@ h3 {
 }
 
 h2 {
-	margin-top: 38px;
+	margin-top: 50px;
 	margin-bottom: 30px;
 
 	letter-spacing: 1px;
@@ -120,7 +112,10 @@ h1 {
 /* TOP BODY CONTENT */
 /* --------------------------------------- */
 
-/* ------ PAGE NUMBER ------ */
+.feature {
+	width: 100%;
+	margin: 0 2%;
+}
 
 .page-number {
 	width: 12%;
@@ -146,108 +141,174 @@ h1 {
 	content: "";
 
 	border-radius: 10px;
-	background-color: rgb(245,200,176);
+	background-color: rgb(192,222,216);
 }
 
-/* ------ WHAT IS PRIMOR ------ */
+.giun img {
+	position: relative;
 
-.right-side-text h2 {
-	margin-bottom: 5px;
-	font-size: 350%;
-	padding-left: 15px;
-}
+	display: inline-block;
 
-.right-side-text p {
-	font-weight: normal;
-}
-
-/* ------ CIRCLE ORANGE ------ */
-
-.circle-orange-container {
-	margin-top: 57px;
-	margin-left: 100px;
-	text-align: center;
-}
-
-.circle-orange-container img {
-	width: 200px;
+	width: 140%;
+	height: 70px;
+	margin: 65px 0px auto auto;
+	padding-right: 20px;
+	padding-left: 10px;
 }
 
 /* --------------------------------------- */
 /* BOTTOM BODY CONTENT */
 /* --------------------------------------- */
 
-/* ------ BLUE CIRCLE ------ */
+/* ------ CONTAINER SIZING ------ */
 
-.circle-blue-container {
-	text-align: right;
+.row-of-three {
+	display: table;
+
+	width: 90%;
+	margin: 10px 8%;
+	padding: 5px;
 }
 
-.circle-blue-container img {
-	width: 250px;
-	padding-right: 10px;
+.box {
+	margin-top: 4%;
+
+	text-align: center;
 }
 
-/* ------ GIUN ------ */
+.box p {
+	font-size: 120%;
+}
 
-.giun-container img {
-	position: relative;
+/* ------ IMAGE ICONS ------ */
+
+.img {
 	display: inline-block;
-	top: -50px;
-	width: 350px;
+
+	width: 170px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
-/* ------ EXPLAIN TEXT ------ */
+/* ------ TEXT STYLES ------ */
 
-.explain-text-container {
-	margin-top: 85px;
+.greeting-explain-text {
+	margin-top: 10px;
+	margin-bottom: 0;
 }
 
-.explain-text-container p {
+.greeting-explain-text h3 {
+	margin-bottom: 20px;
+
+	text-align: left;
+
+	font-size: 350%;
+	font-weight: bold;
+}
+
+.greeting-explain-text p {
+	text-align: center;
+
+	font-size: 80%;
+	font-weight: normal;
+}
+
+/* ------ BUTTONS ------ */
+
+.btn-container {
+	position: absolute;
+	left: 50%;
+
+	display: block;
+
+	margin-top: 50px;
+
+	transform: translate(-50%,0);
+}
+
+.btn-explore:link, .btn-explore:visited {
 	display: inline-block;
-	position: relative;
-	font-weight: 200;
-	left: -120px;
+
+	width: 200px;
+	margin-top: 10%;
+	padding: 10px 30px;
+
+	transition: background-color 0.3s, border 0.3s, color 0.3s;
+	text-align: center;
+	text-decoration: none;
+
+	color: #fff;
+	border-radius: 6px;
+	background-color: rgb(192,222,216);
+
+	font-weight: 300;
+}
+
+.btn-explore:hover, .btn-explore:active {
+	background-color: #aad2ca;
+}
+
+.btn-explore p {
+	letter-spacing: 1px;
+
+	font-size: 100%;
+	line-height: 130%;
 }
 
 /* ------ SOME RESPONSIVE ADJUSTMENTS ------ */
 
 @media only screen and (max-width: 1023px) {
 
-	.page-number, .right-side-text, .circle-orange-container {
+	.feature {
+		margin: auto;
+	}
+
+	.page-number, .giun, .intro-buyer {
 		width: 100%;
 
 		text-align: center;
 	}
 
-	.circle-orange-container {
-		margin-left: 0;
-	}
-
-	.circle-blue-container, .giun-container {
-		display: none;
-	}
-
-	.explain-text-container {
+	.giun img {
 		width: 100%;
-		text-align: center;
-	}
-
-	.explain-text-container p {
-		display: inline-block;
-		position: relative;
-		font-weight: 200;
-		left: 0px;
-		font-size: 150%;
-
-	}
-
-	.right-side-text h1, .right-side-text {
+		height: 70px;
 		margin-top: 0px;
 		padding-top: 0px;
 	}
+}
 
-	.right-side-text h2 {
-		margin-bottom: 15px;
+@media only screen and (max-width: 767px) {
+
+	.page-number, .giun, .intro-buyer {
+		width: 100%;
+
+		text-align: center;
+	}
+
+	.box {
+		width: 100%;
+	}
+
+	.greeting-explain-text h3 {
+		text-align: center;
+	}
+
+	.giun img {
+		height: 70px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.greeting-explain-text h3 {
+		text-align: center;
+	}
+
+	.giun img {
+		height: 70px;
+		margin-top: 0px;
+		padding-top: 0px;
 	}
 }
