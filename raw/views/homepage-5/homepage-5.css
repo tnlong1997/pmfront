@@ -9,6 +9,7 @@
 }
 
 /* Background component -> Hidden for now due to no background */
+
 .background {
 	width: 100vw;
 	height: 100vh;
@@ -33,11 +34,13 @@
 }
 
 /* Component -> Header sections: Page number & Page topic */
-.page-number-design-img-container{
+
+.page-number-design-img-container {
 	height: 40vh;
 }
 
 /* Header section: Page number - design assets - page topic */
+
 .header {
 	height: 40vh;
 }
@@ -57,12 +60,13 @@
 }
 
 /* Page assets */
-.design-1-img-container{
+
+.design-1-img-container {
 	width: 23.5vw;
 	height: 41vh;
 }
 
-#design-asset-1{
+#design-asset-1 {
 	max-width: 100%;
 	max-height: 100%;
 	height: auto;
@@ -76,12 +80,13 @@
 	height: 21vh;
 }
 
-#design-asset-2{
+#design-asset-2 {
 	max-width: 100%;
 	max-height: 100%;
 }
 
 /* Page topic styles */
+
 .page-topic {
 	position: absolute;
 	top: 10vh;
@@ -98,6 +103,7 @@
 }
 
 /* Component -> Example List */
+
 .example-product-list {
 	height: 60vh;
 	position: absolute;
@@ -109,6 +115,7 @@
 }
 
 /* Example list -> Product-Image */
+
 .example-product-img-container {
 	margin-bottom: 3vh;
 }
@@ -120,6 +127,7 @@
 }
 
 /* Example List -> Product details: Name & Description */
+
 .example-product-details {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20pt;
@@ -130,18 +138,21 @@
 }
 
 /* Screen-based responsive */
-@media only screen and (max-width: 1920px){
+@media only screen and (max-width: 1920px) {
+
 	.example-product-list {
 		left: 15vw;
 		width: 70vw;
 	}
+
 	.example-product-img-container {
 		width: 31vw;
 	}
 
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1100px) {
+
 	.example-product-list {
 		left: 20vw;
 		width: 60vw;
