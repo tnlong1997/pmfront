@@ -31,7 +31,7 @@
     "media-feature-range-operator-space-after": "always",
     "media-feature-colon-space-before": "never",
     "media-feature-colon-space-after": "always",
-    "no-descending-specificity": true,
+    # "no-descending-specificity": true,
     "no-duplicate-at-import-rules": true,
     "no-empty-source": true,
     "no-eol-whitespace": true,

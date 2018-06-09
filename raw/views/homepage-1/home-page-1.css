@@ -18,7 +18,7 @@ Light Pink: rgb(245,200,176)
 }
 
 html {
-	color: #555;
+	color: #000;
 	background-color: #fff;
 
 	font-family: 'Roboto', 'Lato','Arial', sans-serif;
@@ -32,10 +32,19 @@ html {
 /* REUSABLE COMPONENTS */
 /* --------------------------------------- */
 
+.body-wrapper {
+	width: 100%;
+	height: 100%;
+}
+
 .row {
 	max-width: 1140px;
-	margin: auto;
 	padding: 0 2%;
+}
+
+.feature {
+	padding: 0;
+	margin: 0 auto;
 }
 
 .row-full-width {
@@ -101,7 +110,7 @@ h1 {
 	word-spacing: 6px;
 	text-transform: uppercase;
 
-	color: #555;
+	color: #000;
 
 	font-size: 200%;
 	font-weight: 300;
@@ -130,6 +139,7 @@ h1 {
 .page-number h1 {
 	margin-bottom: 0px;
 	padding-top: 10px;
+	font-weight: bold;
 
 	text-align: center;
 
@@ -139,8 +149,8 @@ h1 {
 .page-number h1::after {
 	display: block;
 
-	width: 120px;
-	height: 10px;
+	width: 100px;
+	height: 13px;
 	margin: 0 auto;
 
 	content: "";
@@ -154,6 +164,7 @@ h1 {
 .right-side-text h2 {
 	margin-bottom: 5px;
 	padding-left: 15px;
+	font-weight: bold;
 
 	font-size: 350%;
 }
@@ -204,16 +215,27 @@ h1 {
 /* ------ EXPLAIN TEXT ------ */
 
 .explain-text-container {
-	margin-top: 85px;
+	margin-top: 90px;
 }
 
 .explain-text-container p {
+	color: rgb(120, 116, 115);
+	letter-spacing: 1.6px;
 	position: relative;
 	left: -120px;
 
 	display: inline-block;
 
-	font-weight: 200;
+	font-weight: 500;
+}
+
+/* ------ ARROW ------ */
+
+.arrow-containter {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
 }
 
 /* --------------------------------------- */
@@ -260,5 +282,9 @@ h1 {
 
 	.right-side-text h2 {
 		margin-bottom: 15px;
+	}
+
+	.arrow-containter {
+		margin-bottom: 70px;
 	}
 }

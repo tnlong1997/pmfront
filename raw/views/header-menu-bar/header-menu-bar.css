@@ -23,113 +23,143 @@ html {
 /* HEADERS */
 /* --------------------------------------- */
 
-.add-padding-row {
+.my-header {
 	position: fixed;
-
 	width: 100%;
-	margin: 0px;
 
-	border-bottom: 2px solid #ccc;
-}
-
-.box {
-	position: relative;
-
-	width: 100px;
-	height: 52px;
-	margin-top: 0;
-	margin-right: 50px;
-	margin-bottom: 0;
-	padding: 16px 0;
-
-	text-align: center;
-}
-
-.box a {
-	text-decoration: none;
-
-	color: #000;
-
-	font-size: 100%;
-	font-weight: normal;
-}
-
-/* ------ PRIMOR ------ */
-
-p {
 	margin: 0px;
 	padding: 0px;
+	border-bottom: 2px solid #e2e1e2;
+	height: 58px;
 }
 
-.box1 {
-	padding-left: 15px;
+/* ------ HEADER LIST ITEMS ------ */
+
+.main1 ul li {
+	list-style: none;
+	display: inline;
 }
 
-.box1 p {
-	display: block;
-
-	letter-spacing: 0.6px;
-
-	font-size: 120%;
-	font-weight: bold;
-}
-
-/* ------ LOGO ------ */
-
-.box4 {
-	margin-top: 0;
-	padding: 0;
-	padding-top: 8px;
-
-	text-align: center;
-}
-
-.box4 img {
-	height: 40px;
-}
-
-/* ------ LANGUAGE ------ */
-
-.box7 {
-	width: 2%;
-	margin-right: 0px;
-
-	font-family: 'Roboto', sans-serif;
-}
-
-.box7 select {
-	overflow: hidden;
-
-	border: none;
-
-	font-weight: normal;
-
-	-webkit-appearance: none;
-}
-
-/* ------ LOG IN SIGN UP ------ */
-
-.box8 {
-	float: right;
-
-	width: 300px;
-	height: 56px;
+.main2 a ,.main1 ul li a {
+	text-decoration: none;
 	margin-top: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-	padding: 16px 0px;
-	padding-left: 17px;
-
-	text-align: left;
-
-	color: #fff;
-	background-color: rgb(178,193,190);
-
+	color: #000;
+	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 }
 
-.box8 a {
+.header-box {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+/* ------ ITEM1 ------ */
+
+p {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.item1 p {
+	font-weight: bold;
+	font-size: 120%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.item1-container {
+	padding-right: 30px;
+}
+
+/* ------ ITEM2 ------ */
+
+/* ------ ITEM3 ------ */
+
+/* ------ ITEM4 ------ */
+
+.item4-container {
+	margin-top: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.main1 img {
+	height: 45px;
+}
+
+/* ------ ITEM5 ------ */
+
+/* ------ ITEM6 ------ */
+
+/* ------ ITEM7 ------ */
+
+.item7-container {
+	padding-left: 55px;
+}
+
+.item7-container select {
+	-webkit-appearance: button;
+	-moz-appearance: none;
+	appearance: none;       /* remove default arrow */
+	background-color: transparent;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 120%;
+	color: #000;
+}
+
+.select-container::after {
+	content: url("../../resources/assets/img/1x/drop-down-select-arrow.png");
+	display: block;
+	position: absolute;
+	left: 33%;
+	top: 73%;
+}
+
+.select-container {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+/* ------ ITEM8 ------ */
+
+.main2, .main2 a {
 	color: #fff;
+	letter-spacing: 0.7px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+
+.item8-container {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+/* --------------------------------------- */
+/* MID CONTENT */
+/* --------------------------------------- */
+
+.mid-container {
+	position: relative;
+	top: 58px;
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.main1 {
+	position: absolute;
+	z-index: -1;
+	padding: 0;
+	margin: 0;
+	width: 80%;
+
 }
 
 /* --------------------------------------- */
@@ -137,9 +167,11 @@ p {
 /* --------------------------------------- */
 
 .main2 {
-	float: right;
+	width: 20%;
+	position: absolute;
+	z-index: 1;
+	right: 0px;
 
-	width: 300px ;
 	margin: 0;
 
 	background-color: rgb(178,193,190);
@@ -147,15 +179,19 @@ p {
 
 .menu-list {
 	padding-top: 100px;
-	padding-bottom: 100vh;
 }
 
 .menu-list li {
 	list-style-type: none;
+	padding-left: 7px;
+	padding-top: 5px;
+
 }
 
 .menu-list a:link, .menu-list a:visited {
 	text-decoration: none;
+
+	font-size: 120%;
 
 	color: #fff;
 }
@@ -163,7 +199,7 @@ p {
 .menu-list a p {
 	padding-left: 16px;
 
-	letter-spacing: 0.6px;
+	letter-spacing: 1px;
 
 	font-size: 90%;
 	font-weight: normal;
@@ -171,28 +207,15 @@ p {
 }
 
 .menu-list a:active, .menu-list a:hover, .menu-list a:link {
-	color: rgb(126, 126, 126);
+	color: rgb(223, 219, 219);
 }
 
-/* ------ OPTIONAL ------ */
-
-.menu-list a p::before {
-	position: relative;
-	top: 17px;
-	left: -160px;
-
-	display: block;
-
-	width: 15px;
-	height: 3px;
-	margin: 0 auto;
-
-	content: "";
-
-	border-radius: 2px;
-	background-color: rgb(182, 182, 182, 0.5);
+.content-container {
+	height: 690px;
+	text-align: center;
+	padding-top: 300px;
 }
 
-.sett {
-	position: relative;
+.menu-container {
+	height: 690px;
 }

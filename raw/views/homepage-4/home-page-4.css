@@ -9,7 +9,7 @@
 }
 
 html {
-	color: #555;
+	color: #000;
 	background-color: #fff;
 
 	font-family: 'Roboto', 'Lato','Arial', sans-serif;
@@ -92,8 +92,6 @@ h1 {
 	word-spacing: 6px;
 	text-transform: uppercase;
 
-	color: #555;
-
 	font-size: 200%;
 	font-weight: 300;
 }
@@ -114,9 +112,11 @@ h1 {
 .page-number {
 	width: 12%;
 	padding: 0;
+	font-weight: bold;
 }
 
 .page-number h1 {
+	font-weight: bold;
 	margin-bottom: 0px;
 	padding-top: 10px;
 
@@ -128,8 +128,8 @@ h1 {
 .page-number h1::after {
 	display: block;
 
-	width: 120px;
-	height: 10px;
+	width: 110px;
+	height: 13px;
 	margin: 0 auto;
 
 	content: "";
@@ -140,6 +140,7 @@ h1 {
 
 .right-side-text h2 {
 	margin-bottom: 5px;
+	font-weight: bold;
 }
 
 .right-side-text p {
@@ -191,6 +192,7 @@ h1 {
 
 	font-size: 80%;
 	font-weight: normal;
+	letter-spacing: 0.3px;
 }
 
 /* ------ BUTTONS ------ */
@@ -201,7 +203,8 @@ h1 {
 
 	display: block;
 
-	margin-top: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
 	transform: translate(-50%,0);
 }
@@ -235,6 +238,15 @@ h1 {
 	line-height: 130%;
 }
 
+/* ------ ARROWS ------ */
+
+.arrow-containter {
+	position: relative;
+	top: 130px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
 /* ------ SOME RESPONSIVE ADJUSTMENTS ------ */
 
 @media only screen and (max-width: 1023px) {
@@ -252,5 +264,9 @@ h1 {
 
 	.right-side-text h2 {
 		margin-bottom: 15px;
+	}
+
+	.arrow-containter {
+		margin-bottom: 70px;
 	}
 }

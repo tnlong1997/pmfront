@@ -9,7 +9,7 @@
 }
 
 html {
-	color: #555;
+	color: #000;
 	background-color: #fff;
 
 	font-family: 'Roboto', 'Lato','Arial', sans-serif;
@@ -93,8 +93,6 @@ h1 {
 	word-spacing: 6px;
 	text-transform: uppercase;
 
-	color: #555;
-
 	font-size: 200%;
 	font-weight: 300;
 }
@@ -123,6 +121,7 @@ h1 {
 }
 
 .page-number h1 {
+	font-weight: bold;
 	margin-bottom: 0px;
 	padding-top: 10px;
 
@@ -134,14 +133,14 @@ h1 {
 .page-number h1::after {
 	display: block;
 
-	width: 120px;
-	height: 10px;
+	width: 110px;
+	height: 13px;
 	margin: 0 auto;
 
 	content: "";
 
 	border-radius: 10px;
-	background-color: rgb(192,222,216);
+	background-color: rgb(245,200,176);
 }
 
 .giun img {
@@ -177,7 +176,14 @@ h1 {
 }
 
 .box p {
-	font-size: 120%;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.right-shift {
+	text-align: left;
+	padding-left: 0;
+	margin-left: 0;
 }
 
 /* ------ IMAGE ICONS ------ */
@@ -213,51 +219,22 @@ h1 {
 	font-weight: normal;
 }
 
-/* ------ BUTTONS ------ */
+/* ------ ARROW ------ */
 
-.btn-container {
-	position: absolute;
-	left: 50%;
-
-	display: block;
-
-	margin-top: 50px;
-
-	transform: translate(-50%,0);
-}
-
-.btn-explore:link, .btn-explore:visited {
-	display: inline-block;
-
-	width: 200px;
-	margin-top: 10%;
-	padding: 10px 30px;
-
-	transition: background-color 0.3s, border 0.3s, color 0.3s;
+.arrow-containter {
 	text-align: center;
-	text-decoration: none;
-
-	color: #fff;
-	border-radius: 6px;
-	background-color: rgb(192,222,216);
-
-	font-weight: 300;
-}
-
-.btn-explore:hover, .btn-explore:active {
-	background-color: #aad2ca;
-}
-
-.btn-explore p {
-	letter-spacing: 1px;
-
-	font-size: 100%;
-	line-height: 130%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
 }
 
 /* ------ SOME RESPONSIVE ADJUSTMENTS ------ */
 
 @media only screen and (max-width: 1023px) {
+
+	.box {
+		text-align: center;
+	}
 
 	.feature {
 		margin: auto;
@@ -285,8 +262,17 @@ h1 {
 		text-align: center;
 	}
 
+	.row-of-three {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: auto;
+		padding-right: auto;
+	}
+
 	.box {
 		width: 100%;
+		margin: 0;
+		padding: 0;
 	}
 
 	.greeting-explain-text h3 {
@@ -306,9 +292,19 @@ h1 {
 		text-align: center;
 	}
 
+	.box {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
 	.giun img {
 		height: 70px;
 		margin-top: 0px;
 		padding-top: 0px;
+	}
+
+	.arrow-containter {
+		margin-bottom: 70px;
 	}
 }
