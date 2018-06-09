@@ -39,6 +39,7 @@ html {
 
 .row {
 	max-width: 1140px;
+	margin: auto;
 	padding: 0 2%;
 }
 
