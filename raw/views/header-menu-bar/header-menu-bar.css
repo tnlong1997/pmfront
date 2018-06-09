@@ -25,48 +25,82 @@ html {
 
 .my-header {
 	position: fixed;
-	width: 100%;
 
+	width: 100%;
+	height: 58px;
 	margin: 0px;
 	padding: 0px;
+
 	border-bottom: 2px solid #e2e1e2;
-	height: 58px;
 }
 
 /* ------ HEADER LIST ITEMS ------ */
 
-.main1 ul li {
-	list-style: none;
-	display: inline;
+.menu-list li {
+	padding-top: 5px;
+	padding-left: 7px;
+
+	list-style-type: none;
+
 }
 
-.main2 a ,.main1 ul li a {
-	text-decoration: none;
+.main1 ul li {
+	display: inline;
+
+	list-style: none;
+}
+
+.header-box a {
+	margin-top: 15px;
+	margin-bottom: 0;
+
+	text-align: center;
+
+	color: #fff;
+}
+
+.main2 a {
 	margin-top: 0px;
+
+	text-decoration: none;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+
+.main1 ul li a {
+	margin-top: 0px;
+
+	text-decoration: none;
+
 	color: #000;
+
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 }
 
 .header-box {
-	text-align: center;
 	margin-top: 15px;
 	margin-bottom: 0;
+
+	text-align: center;
 }
 
 /* ------ ITEM1 ------ */
 
 p {
 	display: inline-block;
+
 	margin: 0;
 	padding: 0;
 }
 
 .item1 p {
-	font-weight: bold;
-	font-size: 120%;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+
+	font-size: 120%;
+	font-weight: bold;
 }
 
 .item1-container {
@@ -85,7 +119,7 @@ p {
 	padding-bottom: 5px;
 }
 
-.main1 img {
+.item4 img {
 	height: 45px;
 }
 
@@ -100,35 +134,50 @@ p {
 }
 
 .item7-container select {
+	color: #000;
+	border: none;
+	background-color: transparent;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 120%;
+
 	-webkit-appearance: button;
 	-moz-appearance: none;
 	appearance: none;       /* remove default arrow */
-	background-color: transparent;
-	border: none;
-	font-family: 'Roboto', sans-serif;
-	font-size: 120%;
-	color: #000;
 }
 
 .select-container::after {
-	content: url("../../resources/assets/img/1x/drop-down-select-arrow.png");
-	display: block;
 	position: absolute;
-	left: 33%;
 	top: 73%;
+	left: 33%;
+
+	display: block;
+
+	content: url("../../resources/assets/img/1x/drop-down-select-arrow.png");
 }
 
 .select-container {
 	position: relative;
-	padding: 0;
+
 	margin: 0;
+	padding: 0;
 }
 
 /* ------ ITEM8 ------ */
 
-.main2, .main2 a {
-	color: #fff;
+.main2 {
+	position: absolute;
+	z-index: 1;
+	right: 0px;
+
+	width: 20%;
+	margin: 0;
+
 	letter-spacing: 0.7px;
+
+	color: #fff;
+	background-color: rgb(178,193,190);
+
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 }
@@ -136,8 +185,9 @@ p {
 .item8-container {
 	padding-top: 18px;
 	padding-bottom: 18px;
-	text-align: left;
 	padding-left: 20px;
+
+	text-align: left;
 }
 
 /* --------------------------------------- */
@@ -156,9 +206,10 @@ p {
 .main1 {
 	position: absolute;
 	z-index: -1;
-	padding: 0;
-	margin: 0;
+
 	width: 80%;
+	margin: 0;
+	padding: 0;
 
 }
 
@@ -166,34 +217,16 @@ p {
 /* MENU BAR */
 /* --------------------------------------- */
 
-.main2 {
-	width: 20%;
-	position: absolute;
-	z-index: 1;
-	right: 0px;
-
-	margin: 0;
-
-	background-color: rgb(178,193,190);
-}
-
 .menu-list {
 	padding-top: 100px;
-}
-
-.menu-list li {
-	list-style-type: none;
-	padding-left: 7px;
-	padding-top: 5px;
-
 }
 
 .menu-list a:link, .menu-list a:visited {
 	text-decoration: none;
 
-	font-size: 120%;
-
 	color: #fff;
+
+	font-size: 120%;
 }
 
 .menu-list a p {
@@ -212,8 +245,9 @@ p {
 
 .content-container {
 	height: 690px;
-	text-align: center;
 	padding-top: 300px;
+
+	text-align: center;
 }
 
 .menu-container {
