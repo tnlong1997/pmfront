@@ -1,0 +1,9 @@
+before_script:
+  - npm install -g @angular/cli
+  - npm install
+
+lint-test:
+  script:
+      - npm run lint
+      - cd pmweb && npm install
+      - ng lint
