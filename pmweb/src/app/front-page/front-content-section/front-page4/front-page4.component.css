@@ -1,0 +1,80 @@
+/* --------------------------------------- */
+/* MID CONTENT */
+/* --------------------------------------- */
+
+.mid-container {
+	z-index: 1;
+	position: absolute;
+	top: 58px;
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.main1 {
+	position: absolute;
+	z-index: -1;
+
+	width: 80%;
+	margin: 0;
+	padding: 0;
+
+}
+
+.main2 {
+	position: absolute;
+	z-index: 1;
+	right: 0px;
+
+	width: 20%;
+	margin: 0;
+
+	letter-spacing: 0.7px;
+
+	color: #fff;
+	background-color: rgb(178,193,190);
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+
+/* --------------------------------------- */
+/* MENU BAR */
+/* --------------------------------------- */
+
+.menu-list {
+	padding-top: 100px;
+}
+
+.menu-list a:link, .menu-list a:visited {
+	text-decoration: none;
+
+	color: #fff;
+
+	font-size: 120%;
+}
+
+.menu-list a p {
+	padding-left: 16px;
+	
+	letter-spacing: 1px;
+
+	font-size: 90%;
+	font-weight: normal;
+	line-height: 30px;
+}
+
+.menu-list a.active, .menu-list a:hover {
+	color: rgb(223, 219, 219);
+}
+
+.content-container {
+	height: calc(100vh - 58px);
+
+	text-align: center;
+}
+
+.menu-container {
+	height: calc(100vh - 58px);
+}

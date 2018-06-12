@@ -1,3 +1,61 @@
-<p>
-  front-page4 works!
-</p>
+<div class="row mid-container">
+	<!-- Content Container -->
+	<div class="col span-1-of-2 main1 content-container">
+		<div id="myCarousel" class="carousel slide" data-interval="false">
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<app-front-page1></app-front-page1>
+				</div>
+
+				<div class="item">
+					<app-front-page2></app-front-page2>
+				</div>
+
+				<div class="item">
+					<app-front-page3></app-front-page3>
+				</div>
+
+				<div class="item">
+					<app-front-page4></app-front-page4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Menu Bar -->
+	<div class="col span-1-of-2 main2 menu-container">
+		<ul class="menu-list">
+			<li class="menu-item-1"  data-target="#myCarousel" data-slide-to="0" >
+				<a href="javascript:void(0)" [ngClass]="{'active': selectedItem === 'item1'}" (click)="selectedItem = 'item1'">
+					<p>What Is Primor ?</p>
+				</a>
+			</li>
+			<li class="menu-item-2" data-target="#myCarousel" data-slide-to="1">
+				<a href="javascript:void(0)" [ngClass]="{'active': selectedItem === 'item2'}" (click)="selectedItem = 'item2'">
+					<p>How It Works</p>
+				</a>
+			</li>
+			<li class="menu-item-3" data-target="#myCarousel" data-slide-to="2">
+				<a href="javascript:void(0)"   [ngClass]="{'active': selectedItem === 'item3'}" (click)="selectedItem = 'item3'">
+					<p>Become A Buyer</p>
+				</a>
+			</li>
+			<li class="menu-item-4" data-target="#myCarousel" data-slide-to="3">
+				<a href="javascript:void(0)" [ngClass]="{'active': selectedItem === 'item4'}" (click)="selectedItem = 'item4'">
+					<p>Become A Shipper</p>
+				</a>
+			</li>
+			<li class="menu-item-5">
+				<a href="javascript:void(0)">
+					<p>Trending Orders</p>
+				</a>
+			</li>
+			<li class="menu-item-6">
+				<a href="javascript:void(0)">
+					<p>Top Rating Shippers</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
