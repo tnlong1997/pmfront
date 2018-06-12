@@ -1,80 +1,258 @@
+.body-wrapper {
+	position: relative;
+}
+
 /* --------------------------------------- */
-/* MID CONTENT */
+/* REUSABLE COMPONENTS */
 /* --------------------------------------- */
 
-.mid-container {
-	z-index: 1;
-	position: absolute;
-	top: 58px;
+.row {
+	max-width: 1140px;
+	margin: auto;
+	padding: 0 2%;
+}
 
+.row-full-width {
 	width: 100%;
-	margin: 0;
-	padding: 0;
 }
 
-.main1 {
-	position: absolute;
-	z-index: -1;
+.row-of-four {
+	display: table;
 
-	width: 80%;
-	margin: 0;
-	padding: 0;
-
+	margin: 0 2% 0 2%;
+	padding: 5px;
 }
 
-.main2 {
-	position: absolute;
-	z-index: 1;
-	right: 0px;
-
-	width: 20%;
-	margin: 0;
-
-	letter-spacing: 0.7px;
-
-	color: #fff;
-	background-color: rgb(178,193,190);
-
-	font-family: 'Roboto', sans-serif;
-	font-weight: normal;
+.span-1-of-4 {
+	margin-top: 4%;
 }
+/* ------ HEADINGS ------ */
 
-/* --------------------------------------- */
-/* MENU BAR */
-/* --------------------------------------- */
-
-.menu-list {
-	padding-top: 100px;
-}
-
-.menu-list a:link, .menu-list a:visited {
-	text-decoration: none;
-
-	color: #fff;
-
-	font-size: 120%;
-}
-
-.menu-list a p {
-	padding-left: 16px;
-	
+h1, h2 {
 	letter-spacing: 1px;
+	text-transform: uppercase;
 
+	font-weight: 300;
+}
+
+.intro-buyer {
+	width: 70%;
+
+	line-height: 145%;
+}
+
+h3 {
+	margin-bottom: 15px;
+
+	text-align: center;
+
+	font-size: 110%;
+	font-weight: 300;
+}
+
+h2 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+
+	letter-spacing: 1px;
+	word-spacing: 2px;
+
+	font-size: 180%;
+}
+
+p {
 	font-size: 90%;
+	line-height: 145%;
+}
+
+h1 {
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+	text-align: center;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+	text-transform: uppercase;
+
+	font-size: 200%;
+	font-weight: 300;
+}
+
+/* --------------------------------------- */
+/* SECTION FEATURES */
+/* --------------------------------------- */
+
+.section-features {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* --------------------------------------- */
+/* TOP BODY CONTENT */
+/* --------------------------------------- */
+
+.page-number {
+	width: 12%;
+	padding: 0;
+	font-weight: bold;
+}
+
+.page-number h1 {
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-top: 10px;
+
+	text-align: center;
+
+	font-size: 500%;
+}
+
+.page-number h1::after {
+	display: block;
+
+	width: 110px;
+	height: 13px;
+	margin: 0 auto;
+
+	content: "";
+
+	border-radius: 10px;
+	background-color: rgb(192,222,216);
+}
+
+.right-side-text h2 {
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.right-side-text p {
 	font-weight: normal;
-	line-height: 30px;
+	text-align: left;
 }
 
-.menu-list a.active, .menu-list a:hover {
-	color: rgb(223, 219, 219);
+/* --------------------------------------- */
+/* BOTTOM BODY CONTENT */
+/* --------------------------------------- */
+
+/* ------ CONTAINER SIZING ------ */
+
+.row-of-three {
+	display: table;
+
+	margin: 10px auto;
+	padding: 5px;
 }
 
-.content-container {
-	height: calc(100vh - 58px);
+.box {
+	margin-top: 4%;
 
 	text-align: center;
 }
 
-.menu-container {
-	height: calc(100vh - 58px);
+/* ------ IMAGE ICONS ------ */
+
+.img {
+	width: 120px;
+	margin-bottom: 10px;
+}
+
+/* ------ TEXT STYLES ------ */
+
+.greeting-explain-text {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.greeting-explain-text h3 {
+	margin-bottom: 20px;
+
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.greeting-explain-text p {
+	text-align: center;
+
+	font-size: 80%;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+}
+
+/* ------ BUTTONS ------ */
+
+.btn-container {
+	position: absolute;
+	left: 50%;
+
+	display: block;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	transform: translate(-50%,0);
+}
+
+.btn-explore:link, .btn-explore:visited {
+	display: inline-block;
+
+	width: 200px;
+	margin-top: 10%;
+	padding: 10px 30px;
+
+	transition: background-color 0.3s, border 0.3s, color 0.3s;
+	text-align: center;
+	text-decoration: none;
+
+	color: #fff;
+	border-radius: 6px;
+	background-color: rgb(192,222,216);
+
+	font-weight: 300;
+}
+
+.btn-explore:hover, .btn-explore:active {
+	background-color: #aad2ca;
+}
+
+.btn-explore p {
+	letter-spacing: 1px;
+
+	font-size: 100%;
+	line-height: 130%;
+}
+
+/* ------ ARROWS ------ */
+
+.arrow-containter {
+	position: relative;
+	top: 130px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/* ------ SOME RESPONSIVE ADJUSTMENTS ------ */
+
+@media only screen and (max-width: 1023px) {
+
+	.page-number, .right-side-text, .intro-buyer {
+		width: 100%;
+
+		text-align: center;
+	}
+
+	.right-side-text h1, .right-side-text {
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+
+	.right-side-text h2 {
+		margin-bottom: 15px;
+		text-align: left;
+	}
+
+	.arrow-containter {
+		margin-bottom: 70px;
+	}
 }
