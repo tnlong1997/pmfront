@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/* --------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------- */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	color: #000;
+	background-color: #fff;
+
+	font-family: 'Roboto', 'Lato','Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+
+	text-rendering: optimizeLegibility;
+}
