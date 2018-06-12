@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./front-content-section.component.css']
 })
 export class FrontContentSectionComponent implements OnInit {
-
+	selectedItem : string;
   constructor() { }
 
   ngOnInit() {
+		this.selectedItem = "item1";
   }
 
 }
