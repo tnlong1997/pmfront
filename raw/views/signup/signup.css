@@ -1,11 +1,4 @@
 /* --------------------------------------- */
-/* Color
-	Dark Pallette Blue: rgb(178,193,190)
-	Light Orange: rgb(245,200,176)
-*/
-/* --------------------------------------- */
-
-/* --------------------------------------- */
 /* BASIC SETUP */
 /* --------------------------------------- */
 
@@ -26,13 +19,31 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
+/* BODY CONTENTS -> FOMRS -> BIRTHDAY SELECT OPTIONS -> SUBCRIPTION CHECKBOX AND TEXT  -> SIGN UP BUTTONS -> TEXT AND STYLES */
+
+/* --------------------------------------- */
+/* BODY CONTENTS */
+/* --------------------------------------- */
+
+/* DEFAUL CONTAINER */
+
+.default-container {
+	height: 27px;
+	margin-top: 40px;
+	margin-bottom: 13px;
+}
+
+.default-container h1 {
+	font-size: 190%;
+}
+
 .body-wrapper {
 	height: calc(120vh);
 }
 
 .mid-container {
-	z-index: 1;
 	position: absolute;
+	z-index: 1;
 	top: 58px;
 
 	width: 100%;
@@ -41,34 +52,47 @@ html {
 }
 
 .add-margin-padding-mid-content {
+	width: 30%;
 	max-width: 1140px;
 	margin: auto;
-	width: 30%;
 }
 
 /* --------------------------------------- */
-/* REUSABLE COMPONENTS */
+/* FORMS */
 /* --------------------------------------- */
 
-.resize {
-	letter-spacing: 1px;
+/* ID AND PASSWORD */
+
+.input-class {
+	width: 100%;
+	height: 30px;
+	margin-top: 7px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+
+	text-decoration: none;
+
+	border: none;
+	border-bottom: 2.3px solid rgba(213, 213, 213, 0.5);
+	border-radius: 2px;
 }
 
-.small-text-container {
-	text-align: left;
-	margin-top: 50px;
-	margin-bottom: 30px;
-	margin-left: 0;
-	padding-left: 0;
+.form-content p {
+	letter-spacing: 0.6px;
+
+	font-size: 70%;
+	font-weight: normal;
 }
 
 /* --------------------------------------- */
-/* BIRTHDAY COMPONENTS */
+/* BIRTHDAY SELECT OPTIONS */
 /* --------------------------------------- */
 
 .description-bday p {
-	font-size: 70%;
 	letter-spacing: 0.6px;
+
+	font-size: 70%;
 	font-weight: normal;
 }
 
@@ -119,26 +143,27 @@ html {
 }
 
 .birthday-input-container select {
-	background-image: url("../../resources/assets/img/global-reusable/Asset 3@2x.png");
-	-webkit-appearance: none;
 	border: none;
 	border-bottom: 2.3px solid rgba(213, 213, 213, 0.5);
 	border-radius: 2px;
-
+	background-image: url("../../resources/assets/img/global-reusable/Asset 3@2x.png");
+	background-repeat: no-repeat;
 	background-position: calc(100% - 2px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
 	background-size: 10px 10px, 10px 10px, 1px 1.5em;
-	background-repeat: no-repeat;
+
+	-webkit-appearance: none;
 }
 
 /* --------------------------------------- */
-/* SUBCRIPTION */
+/* SUBCRIPTION CHECKBOX AND TEXT */
 /* --------------------------------------- */
 
 .email-subscription-text {
 	letter-spacing: 0.7px;
 
-	font-size: 60%;
 	color: rgb(178,193,190);
+
+	font-size: 60%;
 }
 
 .checkbox-container {
@@ -147,81 +172,35 @@ html {
 }
 
 .checkbox-container input[type = "checkbox"] {
-	cursor: pointer;
 	margin-right: 10px;
+
+	cursor: pointer;
 }
 
 /* --------------------------------------- */
-/* HEADERS */
+/* SIGN UP TEXT */
 /* --------------------------------------- */
 
-.header-text {
-	font-family: 'Roboto Medium', sans-serif;
+.sign-up-text-container {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 0;
+	padding-left: 0;
 
-	padding-top: 3px;
+	text-align: left;
+}
 
+.sign-up-text {
 	margin-bottom: 20px;
-
-	letter-spacing: 1px;
+	padding-top: 3px;
 
 	text-align: left;
 	text-decoration: none;
+	letter-spacing: 1px;
 
+	font-family: 'Roboto Medium', sans-serif;
 	font-size: 85%;
 	font-weight: normal;
-}
-
-/* --------------------------------------- */
-/* BODY CONTENTS */
-/* --------------------------------------- */
-
-.body-content {
-	position: absolute;
-	left: 50%;
-
-	display: block;
-
-	width: 550px;
-	height: 530px;
-	margin-top: 70px;
-
-	transform: translate(-50%,0);
-
-	background-color: #fff;
-}
-
-.auto-margin-body {
-	position: absolute;
-	left: 50%;
-
-	width: 87%;
-	height: 100%;
-	padding-top: 20px;
-
-	transform: translate(-50%,0);
-}
-
-/* DEFAUL CONTAINER */
-
-.default-container {
-	height: 27px;
-	margin-top: 40px;
-	margin-bottom: 13px;
-}
-
-.default-container h1 {
-	font-size: 190%;
-}
-
-/* --------------------------------------- */
-/* CANCEL IMG */
-/* --------------------------------------- */
-
-.cancel-img {
-	width: 17px;
-	height: 17px;
-
-	border-radius: 2px;
 }
 
 /* --------------------------------------- */
@@ -230,6 +209,7 @@ html {
 
 .btn {
 	display: block;
+
 	width: 200px;
 	margin: 10px;
 	padding: 14px 30px;
@@ -244,31 +224,13 @@ html {
 	font-weight: 500;
 }
 
-.logo {
-	position: absolute;
-
-	display: inline-block;
-
-	width: 20px;
-	height: 20px;
-
-	transform: translate(-120%,0);
-}
-
-.fb {
-	width: 25px;
-	height: 25px;
-
-	transform: translate(-120%,-15%);
-}
-
 .btn-text {
 	display: inline-block;
 }
 
-/* BUTTON LOG IN */
+/* BUTTON SIGN UP */
 
-.btn-log-in:link, .btn-log-in:visited {
+.btn-sign-up:link, .btn-sign-up:visited {
 	display: block;
 
 	width: 100%;
@@ -283,34 +245,8 @@ html {
 	background: rgb(245,200,176);
 }
 
-.btn-log-in:hover, .btn-log-in:active {
+.btn-sign-up:hover, .btn-sign-up:active {
 	background-color: #f1b392;
-}
-
-/* --------------------------------------- */
-/* FORMS */
-/* --------------------------------------- */
-
-/* ID AND PASSWORD */
-
-.input-class {
-	width: 100%;
-	height: 30px;
-	margin-top: 7px;
-	margin-right: auto;
-	margin-bottom: 5px;
-	margin-left: auto;
-
-	border: none;
-	border-bottom: 2.3px solid rgba(213, 213, 213, 0.5);
-	border-radius: 2px;
-	text-decoration: none;
-}
-
-.form-content p {
-	font-size: 70%;
-	letter-spacing: 0.6px;
-	font-weight: normal;
 }
 
 /* --------------------------------------- */
@@ -339,7 +275,6 @@ html {
 	padding-top: 3px;
 
 	text-decoration: none;
-
 	letter-spacing: 1px;
 
 	color: rgb(178,193,190);
@@ -353,15 +288,15 @@ html {
 .dont-have-acc {
 	width: 100%;
 	margin: 15px auto;
+	padding: 0;
 
 	text-align: right;
+	letter-spacing: 0.3px;
 
 	color: rgba(49, 42, 50, 0.72);
 
 	font-size: 60%;
 	font-weight: 500;
-	letter-spacing: 0.3px;
-	padding: 0;
 }
 
 a:hover, a:active {
