@@ -15,8 +15,8 @@ import { FrontPage6Component } from './front-page/front-page6/front-page6.compon
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
+	declarations: [
+		AppComponent,
 		HeaderComponent,
 		FrontPageComponent,
 		FrontContentSectionComponent,
@@ -26,11 +26,11 @@ import { FrontPage6Component } from './front-page/front-page6/front-page6.compon
 		FrontPage4Component,
 		FrontPage5Component,
 		FrontPage6Component
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	],
+	imports: [
+		BrowserModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
