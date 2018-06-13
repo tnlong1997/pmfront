@@ -1,0 +1,148 @@
+/* --------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------- */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	color: #000;
+	background-color: #fff;
+
+	font-family: 'Roboto', 'Lato','Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+
+	text-rendering: optimizeLegibility;
+}
+
+/* BODY CONTENTS -> FOMRS -> BIRTHDAY SELECT OPTIONS -> SUBCRIPTION CHECKBOX AND TEXT  -> SIGN UP BUTTONS -> TEXT AND STYLES */
+
+/* --------------------------------------- */
+/* BODY CONTENTS */
+/* --------------------------------------- */
+
+.top-content-container h1 {
+	font-size: 270%;
+}
+
+/* DEFAUL CONTAINER */
+
+.body-wrapper {
+	height: calc(120vh);
+}
+
+.mid-container {
+	position: absolute;
+	z-index: 1;
+	top: 58px;
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.add-margin-padding-mid-content {
+	width: 70%;
+	max-width: 1140px;
+	margin: auto;
+	border: 1px solid blue;
+}
+
+/* --------------------------------------- */
+/* MID BODY CONTENTS */
+/* --------------------------------------- */
+
+.btn img {
+	height: 35px;
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
+	margin-top: 7px;
+}
+
+.btn {
+	width: 300px;
+	height: 50px;
+	border-radius: 18px;
+	text-align: center;
+	background: rgb(230,230,230);
+	border: none;
+	-webkit-appearance: none;
+	margin: 60 auto;
+}
+
+.btn p {
+	display: inline-block;
+	position: relative;
+	margin-left: 1px;
+	border-left: 2px solid #fff;
+	padding: 17px;
+	width: 200px;
+	color: #fff;
+	font-size: 120%;
+	font-family: 'Roboto Medium',sans-serif;
+
+	letter-spacing: 0.5px;
+}
+
+/* --------------------------------------- */
+/* BOTTOM BODY CONTENTS */
+/* --------------------------------------- */
+
+.bottom-content h2 {
+	font-size: 120%;
+	letter-spacing: 0.8px;
+	display: block;
+	margin-bottom: 70px;
+}
+
+/* ID AND PASSWORD */
+
+.input-class {
+	width: 70%;
+	height: 25px;
+	margin-top: 7px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+
+	text-decoration: none;
+
+	border: none;
+	border-bottom: 2.3px solid rgba(213, 213, 213, 0.5);
+	border-radius: 2px;
+}
+
+.form-content p {
+	letter-spacing: 0.6px;
+
+	font-size: 70%;
+	font-weight: normal;
+}
+
+/* SUBCRIPTION CHECKBOX AND TEXT */
+
+.email-subscription-text {
+	letter-spacing: 0.7px;
+
+	font-size: 60%;
+}
+
+.checkbox-container {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.checkbox-container input[type = "checkbox"] {
+	margin-right: 10px;
+
+	cursor: pointer;
+}
+
+label {
+	cursor: pointer;
+}
