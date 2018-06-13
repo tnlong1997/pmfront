@@ -10,7 +10,13 @@
     "html-lint": "./node_modules/.bin/htmlhint '**/*.html'",
     "css-lint": "./node_modules/.bin/stylelint '**/*.css'",
     "css-lint-fix": "./node_modules/.bin/stylelint '**/*.css' --fix",
-    "lint": "npm run js-lint && npm run html-lint && npm run css-lint"
+    "lint": "npm run js-lint && npm run html-lint && npm run css-lint",
+    "js-lint-win": "./node_modules/.bin/eslint **/*.js",
+    "js-lint-win-fix": "./node_modules/.bin/eslint **/*.js --fix",
+    "html-lint-win": "./node_modules/.bin/htmlhint **/*.html",
+    "css-lint-win": "./node_modules/.bin/stylelint **/*.css",
+    "css-lint-win-fix": "./node_modules/.bin/stylelint **/*.css --fix",
+    "lint-win": "npm run js-lint-win && npm run html-lint-win && npm run css-lint-win"
   },
   "repository": {
     "type": "git",
