@@ -1,0 +1,375 @@
+/* --------------------------------------- */
+/* Color
+	Dark Pallette Blue: rgb(178,193,190)
+	Light Orange: rgb(245,200,176)
+*/
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------- */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	color: #000;
+	background-color: #fff;
+
+	font-family: 'Roboto', 'Lato','Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+
+	text-rendering: optimizeLegibility;
+}
+
+.body-wrapper {
+	height: calc(120vh);
+}
+
+.mid-container {
+	z-index: 1;
+	position: absolute;
+	top: 58px;
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.add-margin-padding-mid-content {
+	max-width: 1140px;
+	margin: auto;
+	width: 30%;
+}
+
+/* --------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------------------- */
+
+.resize {
+	letter-spacing: 1px;
+}
+
+.small-text-container {
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+/* --------------------------------------- */
+/* BIRTHDAY COMPONENTS */
+/* --------------------------------------- */
+
+.description-bday p {
+	font-size: 70%;
+	letter-spacing: 0.6px;
+	font-weight: normal;
+}
+
+.description-signup {
+	margin-top: 10px;
+
+	letter-spacing: 0.2px;
+
+	font-size: 75%;
+}
+
+.user_birthday {
+	display: block;
+
+	width: 100%;
+	height: 44px;
+	padding-top: 11px;
+	padding-right: 40px;
+	padding-bottom: 11px;
+	padding-left: 11px;
+
+	color: rgb(72, 72, 72);
+	border-radius: 0px;
+	background-color: transparent;
+
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.day-box {
+	box-sizing: border-box;
+	width: 27.26%;
+}
+
+.month-box {
+	box-sizing: border-box;
+	width: 37.26%;
+}
+
+.year-box {
+	box-sizing: border-box;
+}
+
+.birthday-input-container {
+	height: 58px;
+	margin-top: 10px;
+}
+
+.birthday-input-container select {
+	background-image: url("../../resources/assets/img/global-reusable/Asset 3@2x.png");
+	-webkit-appearance: none;
+	border: none;
+	border-bottom: 2.3px solid rgba(213, 213, 213, 0.5);
+	border-radius: 2px;
+
+	background-position: calc(100% - 2px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+	background-size: 10px 10px, 10px 10px, 1px 1.5em;
+	background-repeat: no-repeat;
+}
+
+/* --------------------------------------- */
+/* SUBCRIPTION */
+/* --------------------------------------- */
+
+.email-subscription-text {
+	letter-spacing: 0.7px;
+
+	font-size: 60%;
+	color: rgb(178,193,190);
+}
+
+.checkbox-container {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.checkbox-container input[type = "checkbox"] {
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+/* --------------------------------------- */
+/* HEADERS */
+/* --------------------------------------- */
+
+.header-text {
+	font-family: 'Roboto Medium', sans-serif;
+
+	padding-top: 3px;
+
+	margin-bottom: 20px;
+
+	letter-spacing: 1px;
+
+	text-align: left;
+	text-decoration: none;
+
+	font-size: 85%;
+	font-weight: normal;
+}
+
+/* --------------------------------------- */
+/* BODY CONTENTS */
+/* --------------------------------------- */
+
+.body-content {
+	position: absolute;
+	left: 50%;
+
+	display: block;
+
+	width: 550px;
+	height: 530px;
+	margin-top: 70px;
+
+	transform: translate(-50%,0);
+
+	background-color: #fff;
+}
+
+.auto-margin-body {
+	position: absolute;
+	left: 50%;
+
+	width: 87%;
+	height: 100%;
+	padding-top: 20px;
+
+	transform: translate(-50%,0);
+}
+
+/* DEFAUL CONTAINER */
+
+.default-container {
+	height: 27px;
+	margin-top: 40px;
+	margin-bottom: 13px;
+}
+
+.default-container h1 {
+	font-size: 190%;
+}
+
+/* --------------------------------------- */
+/* CANCEL IMG */
+/* --------------------------------------- */
+
+.cancel-img {
+	width: 17px;
+	height: 17px;
+
+	border-radius: 2px;
+}
+
+/* --------------------------------------- */
+/* BUTTONS */
+/* --------------------------------------- */
+
+.btn {
+	display: block;
+	width: 200px;
+	margin: 10px;
+	padding: 14px 30px;
+
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+	text-align: center;
+	text-decoration: none;
+
+	border-radius: 25px;
+
+	font-size: 80%;
+	font-weight: 500;
+}
+
+.logo {
+	position: absolute;
+
+	display: inline-block;
+
+	width: 20px;
+	height: 20px;
+
+	transform: translate(-120%,0);
+}
+
+.fb {
+	width: 25px;
+	height: 25px;
+
+	transform: translate(-120%,-15%);
+}
+
+.btn-text {
+	display: inline-block;
+}
+
+/* BUTTON LOG IN */
+
+.btn-log-in:link, .btn-log-in:visited {
+	display: block;
+
+	width: 100%;
+	margin-top: 7px;
+	margin-right: auto;
+	margin-left: auto;
+
+	text-align: center;
+	text-decoration: none;
+
+	color: #fff;
+	background: rgb(245,200,176);
+}
+
+.btn-log-in:hover, .btn-log-in:active {
+	background-color: #f1b392;
+}
+
+/* --------------------------------------- */
+/* FORMS */
+/* --------------------------------------- */
+
+/* ID AND PASSWORD */
+
+.input-class {
+	width: 100%;
+	height: 30px;
+	margin-top: 7px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+
+	border: none;
+	border-bottom: 2.3px solid rgba(213, 213, 213, 0.5);
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.form-content p {
+	font-size: 70%;
+	letter-spacing: 0.6px;
+	font-weight: normal;
+}
+
+/* --------------------------------------- */
+/* TEXT AND STYLES */
+/* --------------------------------------- */
+
+/* LINK TEXT AND PASSWORD TEXT STYLE  */
+
+.password-text {
+	display: inline-block;
+	float: right;
+
+	padding-top: 3px;
+
+	text-decoration: none;
+
+	color: #079992;
+
+	font-size: 70%;
+	font-weight: 500;
+}
+
+.link-text {
+	display: inline-block;
+
+	padding-top: 3px;
+
+	text-decoration: none;
+
+	letter-spacing: 1px;
+
+	color: rgb(178,193,190);
+
+	font-size: 100%;
+	font-weight: normal;
+}
+
+/* BOTTOM TEXT */
+
+.dont-have-acc {
+	width: 100%;
+	margin: 15px auto;
+
+	text-align: right;
+
+	color: rgba(49, 42, 50, 0.72);
+
+	font-size: 60%;
+	font-weight: 500;
+	letter-spacing: 0.3px;
+	padding: 0;
+}
+
+a:hover, a:active {
+	border-bottom: 1px solid rgb(178,193,190);
+}
+
+.sign-up {
+	padding-left: 4px;
+
+	font-size: 100%;
+}

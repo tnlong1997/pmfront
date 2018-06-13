@@ -28,8 +28,7 @@
 }
 
 @font-face {
-	font-family: 'Roboto';
-	font-weight: 200;
+	font-family: 'Roboto Medium';
 
 	src: url('../../vendors/fonts/Roboto-Medium.ttf') format('truetype');
 }
