@@ -1,6 +1,5 @@
 {
   "tagname-lowercase": true,
-  "attr-lowercase": true,
   "attr-value-double-quotes": true,
   "doctype-first": true,
   "tag-pair": true,
@@ -9,7 +8,7 @@
   "src-not-empty": true,
   "attr-no-duplication": true,
   "title-require": true,
-	"inline-script-disabled": false,
+  "inline-script-disabled": false,
   "inline-style-disabled": false,
-	"space-tab-mixed-disabled": true
+  "space-tab-mixed-disabled": true
 }
