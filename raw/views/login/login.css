@@ -223,14 +223,19 @@ label {
 	width: 70%;
 }
 
-.forgot-password-text {
+.forgot-password-text:visited, .forgot-password-text:link {
 	display: block;
 	text-decoration: none;
 	color: rgb(200, 200, 200);
 	font-size: 55%;
 	float: right;
 	font-weight: normal;
-	padding-right: 10px;
+	position: relative;
+	right: 10px;
+}
+
+.forgot-password-text:active, .forgot-password-text:hover {
+	border-bottom: 1px solid rgb(200, 200, 200);
 }
 
 /* --------------------------------------- */
