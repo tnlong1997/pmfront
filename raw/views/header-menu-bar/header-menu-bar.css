@@ -196,6 +196,22 @@ p {
 	text-align: left;
 }
 
+/* ------ USER AVATAR ------ */
+
+.user-avatar {
+	display: inline;
+	margin: 0px;
+	margin-right: 5px;
+
+}
+
+.user-avatar img {
+	width: 36px;
+	height: 36px;
+	border: 2px solid rgb(200, 199, 199);
+	border-radius: 100px;
+}
+
 /* --------------------------------------- */
 /* MID CONTENT */
 /* --------------------------------------- */
@@ -251,11 +267,15 @@ p {
 
 .content-container {
 	height: calc(100vh - 58px);
-	padding-top: 300px;
-
+	padding-top: 100px;
 	text-align: center;
 }
 
 .menu-container {
 	height: calc(100vh - 58px);
+}
+
+.title-text {
+	font-size: 300%;
+	margin-bottom: 80px;
 }
