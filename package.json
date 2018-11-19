@@ -32,9 +32,9 @@
   "devDependencies": {
     "css-lint": "^1.0.1",
     "eslint": "^4.19.1",
-    "htmlhint": "^0.9.13",
+    "htmlhint": "^0.10.1",
     "htmllint-cli": "0.0.7",
-    "stylelint": "^9.2.0",
+    "stylelint": "^9.8.0",
     "stylelint-config-recommended": "^2.1.0"
   },
   "dependencies": {
